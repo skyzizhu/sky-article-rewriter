@@ -1,0 +1,28 @@
+{
+  "baseline_commit": "81210101451135caea649fb0d862e989295400b7",
+  "date": "2026-10-18",
+  "baseline_count": 9,
+  "full_regeneration_count": 4,
+  "case_files": {
+    "I1-jobs": "interviews/baseline-jobs.md",
+    "I2-goodenough": "interviews/baseline-goodenough.md",
+    "I3-list": "interviews/baseline-list.md",
+    "N1-beiying": "narrative/baseline-beiying.md",
+    "N2-guxiang": "narrative/baseline-guxiang.md",
+    "N3-elephant": "narrative/baseline-elephant.md",
+    "T1-mdn": "technical/baseline-mdn.md",
+    "T2-git": "technical/baseline-git.md",
+    "T3-nasa": "technical/baseline-nasa.md"
+  },
+  "candidate_skill_sha256": {
+    "SKILL.md": "3c5046a2120c87a6d139a5e36b813c21951e2a1e6c1f65e393dcfcdf70793b3a",
+    "references/writing-guide.md": "14d29fc3b6e32b3e4e7efbe9fb26b354dada793acd96de9fb6d788fabc517188",
+    "references/narrative-and-flow.md": "123cc79854b48b8fc8c14395f8d8348a36fb1a89e8c24a303630e513ece9ee74",
+    "references/technical.md": "4187fda1647c4bc2d10bca2fde6e41feb610b6687296acb32a5dc5fd83aecc36"
+  },
+  "notes": [
+    "同模型系列不同上下文生成/评审，非完全盲评：部分基线文件内含生成者自检",
+    "片段回归不计为整篇重跑",
+    "无真实读者实验，无无技能对照，不报告读完率"
+  ]
+}
