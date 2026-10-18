@@ -1,0 +1,170 @@
+{
+  "run_id": "A1",
+  "status": "completed",
+  "date": "2026-10-18",
+  "frozen_skill_commit": "7d2e49f771bb9996a15394743fdb01627da9f26b",
+  "skill_path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/frozen-skill/SKILL.md",
+  "skill_sha256": "af71496570354df76081aa7ec6e6fdf2f8dfab6a8703976d935418ed3ea6b8d0",
+  "protocol_prompt": "请使用 sky-article-rewriter，将提供的原文完整测试范围重构为面向无相关背景中文成年人的独立可读文章。保留原文核心表达、重要条件、分歧与信息归属，循序渐进解释必要难点。未指定字数，按技能默认方式决定篇幅；不得把全文改写缩成议题目录或用未披露节选代替。完成草稿后执行技能步骤5的原文回查与修订，再交付正文及必要来源。",
+  "length_policy": "Default standard-depth article; no fixed compression ratio or additional word cap.",
+  "source": {
+    "title": "Neil A. Armstrong Oral History Transcript",
+    "interview_date": "2001-09-19",
+    "interviewers": [
+      "Stephen E. Ambrose",
+      "Douglas Brinkley"
+    ],
+    "additional_questioners": [
+      "Carol Butler",
+      "Kevin Rusnak",
+      "Summer Chick Bergen"
+    ],
+    "facilitator": "Rebecca Wright",
+    "official_url": "https://www.nasa.gov/wp-content/uploads/2025/07/armstrongna-9-19-01.pdf",
+    "pdf_pages": 106,
+    "source_words_from_metadata": 33224,
+    "text_sha256": "0c7409839478da8991ceb5ab96d3fe55847f7f7d63ba7841e5b6b825de596f85"
+  },
+  "reading": {
+    "complete": true,
+    "page_ranges_read": [
+      [
+        1,
+        10
+      ],
+      [
+        11,
+        20
+      ],
+      [
+        21,
+        40
+      ],
+      [
+        41,
+        60
+      ],
+      [
+        61,
+        80
+      ],
+      [
+        81,
+        100
+      ],
+      [
+        101,
+        106
+      ]
+    ],
+    "initial_truncation": "An initial large output was truncated; missing early pages were reread in batches. A large PDF review output was also truncated; pages 77/79/81/83/84/85/86/88 were retrieved again in a small batch.",
+    "pdf_visual_pages": [
+      1,
+      54,
+      106
+    ],
+    "pdf_review_pages": [
+      1,
+      3,
+      4,
+      8,
+      9,
+      17,
+      18,
+      27,
+      31,
+      32,
+      33,
+      35,
+      36,
+      39,
+      40,
+      43,
+      44,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      57,
+      58,
+      59,
+      60,
+      62,
+      63,
+      64,
+      65,
+      69,
+      70,
+      71,
+      75,
+      76,
+      77,
+      79,
+      81,
+      83,
+      84,
+      85,
+      86,
+      88,
+      89,
+      90,
+      91,
+      93,
+      94,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "final_readback": "Saved final read in three sequential batches, then edited passages and surrounding paragraphs were reread; unified draft/final diff inspected."
+  },
+  "references_read": [
+    "references/long-content-and-evaluation.md",
+    "references/interview-podcast.md",
+    "references/restructuring-guide.md",
+    "references/narrative-and-flow.md",
+    "/Users/skyzizhu/.codex/skills/pdf/SKILL.md"
+  ],
+  "core_record": "Career narrative covering aviation interest, Navy and Korea, research engineering, selection, Gemini, Apollo, teamwork, public roles, teaching, accident investigations and future exploration; preserve memory and resource limits and speaker attribution.",
+  "interruption": {
+    "reported_by": "parent task recovery instruction",
+    "description": "After draft was saved, parent reported a quota interruption and requested resuming from existing draft. Original draft retained; PDF comparison and revision completed without restarting or reconstructing a pretend pre-review draft.",
+    "duration_and_usage_independently_measured": false
+  },
+  "outputs": {
+    "draft.md": {
+      "unicode_characters_including_whitespace": 13552,
+      "han_characters": 11742,
+      "non_whitespace_characters": 13276,
+      "sha256": "34c568cc7b63c245c9a53adc4ebfaf8aecf5ad29e88fff4a16784bedc02a8d92"
+    },
+    "review.md": {
+      "unicode_characters_including_whitespace": 4503,
+      "han_characters": 3235,
+      "non_whitespace_characters": 4258,
+      "sha256": "315f9a8664f60be4fcd0ed08d473d7a891b41e6b922666a1539effcae633ead1"
+    },
+    "final.md": {
+      "unicode_characters_including_whitespace": 13832,
+      "han_characters": 11942,
+      "non_whitespace_characters": 13546,
+      "sha256": "87fccb0541dce27a25b58e9eb17887bff277497dd8007ce12f3118a4a01362b7"
+    }
+  },
+  "limitations": [
+    "One independent context from the same model series; no reader behavior data.",
+    "Full-range thematic reconstruction, not sentence-by-sentence translation; compresses name lists, repeated questions and secondary analogies.",
+    "Oral-history numbers and assertions were not externally reverified; speaker attribution and 2001 knowledge scope preserved.",
+    "No later biography, updated Moon/Mars discoveries, or external real-world examples added.",
+    "No other runs or prior evaluation reports read."
+  ],
+  "git_commit_created": false,
+  "skill_protocol_source_modified": false
+}

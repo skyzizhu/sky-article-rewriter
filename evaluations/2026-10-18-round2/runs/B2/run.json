@@ -1,0 +1,137 @@
+{
+  "run_id": "B2",
+  "status": "completed",
+  "recorded_at_utc": "2026-10-18T12:43:29.165226+00:00",
+  "skill": {
+    "name": "sky-article-rewriter",
+    "frozen_commit": "7d2e49f771bb9996a15394743fdb01627da9f26b",
+    "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/frozen-skill/SKILL.md",
+    "sha256": "af71496570354df76081aa7ec6e6fdf2f8dfab6a8703976d935418ed3ea6b8d0",
+    "references_read": [
+      "long-content-and-evaluation.md",
+      "interview-podcast.md",
+      "restructuring-guide.md",
+      "technical.md"
+    ]
+  },
+  "source": {
+    "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/sources/B-hearing.txt",
+    "url": "https://www.nasa.gov/history/rogersrep/v4part6.htm",
+    "metadata_path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/sources/B-hearing.json",
+    "sha256": "c7107f5c2422eb96ce8e0b65de97dfd12a08f9d1986f9316425408b0c9c52241",
+    "bytes": 217523,
+    "characters": 217503,
+    "whitespace_words": 39256,
+    "word_count_method": "Python str.split() on UTF-8 decoded text; agrees with supplied JSON 39256; shell wc -w gives 39257 due whitespace treatment",
+    "lf_newline_count": 5927,
+    "scope": "1986-02-14 morning 08:05–12:35, Kennedy Space Center; hearing pages 1064–1249, web text pages 599–708; not entire final commission report"
+  },
+  "reading": {
+    "full_text_read": true,
+    "method": "Sequential sed batches with generous output caps; tool-truncated regions reread before completion; then targeted source rereads for step 5. Not keyword-only or summary-only reading.",
+    "ordered_initial_ranges_lf_lines": [
+      [
+        1,
+        1000
+      ],
+      [
+        1001,
+        2000
+      ],
+      [
+        2001,
+        3000
+      ],
+      [
+        3001,
+        3500
+      ],
+      [
+        3501,
+        4000
+      ],
+      [
+        4001,
+        4500
+      ],
+      [
+        4501,
+        5000
+      ],
+      [
+        5001,
+        5500
+      ],
+      [
+        5501,
+        5927
+      ]
+    ],
+    "truncation_recovery_ranges_lf_lines": [
+      [
+        2001,
+        2500
+      ],
+      [
+        2501,
+        3000
+      ],
+      [
+        2460,
+        2550
+      ]
+    ],
+    "source_beginning": "v4part6; title and session header",
+    "source_end": "12:35 p.m. adjournment, followed by navigation links",
+    "image_attachments_read": false,
+    "html_semantic_read": false,
+    "read_scope_limitation": "Full supplied text, including captions/reference listings; not independent image reading of viewgraphs, handwritten notes or photos. No claim that image content was verified."
+  },
+  "workflow": {
+    "mode": "完整重构；长内容全局索引、分主题成文、统一收束",
+    "target_reader": "无航天工程背景的中文成年读者",
+    "length_requirement": "未指定字数，按复杂度输出标准深度完整导读",
+    "draft_saved_before_review": true,
+    "draft_preserved": true,
+    "step_5_source_review_completed": true,
+    "review_record": "review.md",
+    "final_article": "final.md",
+    "final_read_in_order": true,
+    "real_reader_test": false,
+    "external_sources_added": false,
+    "original_source_modified": false,
+    "frozen_skill_modified": false,
+    "other_run_outputs_read": false,
+    "git_commit_or_push": false
+  },
+  "limitations": [
+    "A hearing transcript preserves participants’ testimony and memories rather than independently settled findings.",
+    "Image attachments were not opened; descriptions rely on spoken testimony and textual captions.",
+    "Temperature and timing discrepancies are retained with attribution or cautious magnitude statements rather than silently unified.",
+    "Not a word-for-word translation; repeated exchanges and incidental details condensed while retaining major topics, evidence, limitations and disagreement.",
+    "No human reading feedback; self-review is not evidence of reader engagement."
+  ],
+  "artifacts": {
+    "draft.md": {
+      "sha256": "f2e1a8a7f42438222c846451529ed5d39203a4ac95f1322f324cb345e3f94989",
+      "bytes": 37734,
+      "characters": 13107,
+      "han_characters": 11194,
+      "mtime_utc": "2026-10-18T12:39:26.189007+00:00"
+    },
+    "review.md": {
+      "sha256": "93cf579952bc4cdfc898a9edb0e6a26164930929de0d69cee4f69fbac50b3f3e",
+      "bytes": 11146,
+      "characters": 4797,
+      "han_characters": 2811,
+      "mtime_utc": "2026-10-18T12:42:54.996239+00:00"
+    },
+    "final.md": {
+      "sha256": "de5478147254301ac3b25693f3d2d70c4ffe10003ca0cb00b0a4e03a455c3d82",
+      "bytes": 40865,
+      "characters": 14191,
+      "han_characters": 12135,
+      "mtime_utc": "2026-10-18T12:41:31.201527+00:00"
+    }
+  }
+}

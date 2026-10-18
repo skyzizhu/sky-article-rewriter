@@ -1,0 +1,153 @@
+{
+  "run_id": "C1",
+  "status": "complete",
+  "date": "2026-10-18",
+  "prompt": "请使用 sky-article-rewriter，将提供的原文完整测试范围重构为面向无相关背景中文成年人的独立可读文章。保留原文核心表达、重要条件、分歧与信息归属，循序渐进解释必要难点。未指定字数，按技能默认方式决定篇幅；不得把全文改写缩成议题目录或用未披露节选代替。完成草稿后执行技能步骤5的原文回查与修订，再交付正文及必要来源。",
+  "audience": "无相关背景中文成年人",
+  "length_policy": "技能默认标准深度；未指定字数，无固定压缩比例。",
+  "source": {
+    "title": "Blockchain Technology Overview",
+    "report": "NISTIR 8202",
+    "authors": [
+      "Dylan Yaga",
+      "Peter Mell",
+      "Nik Roby",
+      "Karen Scarfone"
+    ],
+    "version": "October 2018 final",
+    "url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/nist.ir.8202.pdf",
+    "doi": "https://doi.org/10.6028/NIST.IR.8202",
+    "provided_pdf_pages": 68,
+    "provided_english_words": 23720,
+    "files": [
+      "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/sources/C-blockchain.txt",
+      "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/sources/C-blockchain.pdf",
+      "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/sources/C-blockchain.json"
+    ],
+    "actual_text_file_sha256": "a651711e13da254da71fc63221f379cb730994505ea687929a92e2fcf6f04818",
+    "provided_text_metadata_sha256": "a651711e13da254da71fc63221f379cb730994505ea687929a92e2fcf6f04818",
+    "pdf_sha256": "8cb346731900118be97a2eaf2a1613b2ed58922eb99ab1b766960932a741d0e6"
+  },
+  "reading": {
+    "complete_text_read": true,
+    "text_lines": [
+      1,
+      2718
+    ],
+    "pdf_pages_read_via_text": [
+      1,
+      68
+    ],
+    "rewrite_scope": "摘要、执行摘要、正文1—9节、附录A必要缩写及附录B有助理解的定义；附录C参考文献作为来源导航，不逐条重写。",
+    "batch_reads_lines": [
+      [
+        1,
+        620
+      ],
+      [
+        600,
+        960
+      ],
+      [
+        960,
+        1350
+      ],
+      [
+        1350,
+        1760
+      ],
+      [
+        1760,
+        2150
+      ],
+      [
+        2150,
+        2500
+      ],
+      [
+        2500,
+        2718
+      ],
+      [
+        300,
+        360
+      ],
+      [
+        1,
+        299
+      ]
+    ],
+    "truncation_handled": "首批目录区域输出被截断，后续重读1—299及300—360行；正文各批完整获得。回查拼接输出一次截断，随后把final.md分成两半重新通读，并分批回读关键源段。",
+    "visually_inspected_pdf_pages": [
+      21,
+      28,
+      53,
+      64
+    ],
+    "visual_observations": "原交易输入输出与找零、区块头摘要链接、DHS敏感标识及审计例外、默克尔树逐层摘要。",
+    "pdf_rendering": "pdftoppm成功；出现fontconfig警告，实际view_image图像可读。临时PNG已清理。"
+  },
+  "skill": {
+    "name": "sky-article-rewriter",
+    "frozen_commit": "7d2e49f771bb9996a15394743fdb01627da9f26b",
+    "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/frozen-skill/SKILL.md",
+    "skill_file_sha256": "af71496570354df76081aa7ec6e6fdf2f8dfab6a8703976d935418ed3ea6b8d0",
+    "references_read": [
+      "technical.md",
+      "long-content-and-evaluation.md",
+      "restructuring-guide.md"
+    ],
+    "support_skill": "/Users/skyzizhu/.codex/skills/pdf/SKILL.md",
+    "summary": "技术说明完整重构；按知识依赖组织；只新增明确假设和必要释义；保存原草稿后回查核心、原句、触发条件与归属，并通读修改稿。",
+    "skill_modified": false
+  },
+  "review": {
+    "draft_preserved": true,
+    "actual_revision_record": "review.md",
+    "final_revised": true,
+    "recorded_edit_rows": 16,
+    "external_current_facts_added": false,
+    "real_reader_feedback": false,
+    "other_runs_or_prior_evaluations_read": false,
+    "source_or_protocol_modified": false,
+    "git_commit_created": false
+  },
+  "continuation": {
+    "parent_reported_previous_quota_interruption": true,
+    "local_quota_error_log_available": false,
+    "handling": "依据根任务续作通知，继续已有draft.md与final.md，完成回查及运行记录；未重新开始或覆盖原始草稿。"
+  },
+  "artifacts": {
+    "draft.md": {
+      "characters_including_whitespace": 9570,
+      "characters_excluding_whitespace": 9383,
+      "han_characters": 8163,
+      "body_han_characters_excluding_source_note": 8030,
+      "whitespace_delimited_tokens_not_chinese_word_count": 103,
+      "sha256": "ca559022c6071985b3f6753b61ea004244e431bb91cc1bb88b733d5fe687e975"
+    },
+    "final.md": {
+      "characters_including_whitespace": 10473,
+      "characters_excluding_whitespace": 10284,
+      "han_characters": 8972,
+      "body_han_characters_excluding_source_note": 8839,
+      "whitespace_delimited_tokens_not_chinese_word_count": 104,
+      "sha256": "b76eeef27d55a7d60d97b3e8b2dbff74840a17db9776d8730c0b5d9c629f8be5"
+    },
+    "review.md": {
+      "characters_including_whitespace": 5062,
+      "characters_excluding_whitespace": 4799,
+      "han_characters": 3316,
+      "body_han_characters_excluding_source_note": 3316,
+      "whitespace_delimited_tokens_not_chinese_word_count": 240,
+      "sha256": "7a71dd9d4350c1fc887d596d24242f7b84d552708c929d002db25ce1e292c996"
+    }
+  },
+  "counting_note": "字符数以Python Unicode字符串长度计；汉字以CJK基本区及扩展A正则计。中文未做分词，空白分隔数仅为机械token统计，不能当作中文词数。",
+  "limitations": [
+    "模型自检而非真实读者效果验证",
+    "政府报告全文为本地阅读输入，未复制或发布源PDF",
+    "2018时间语境，原引述案例未逐一重新核实全部链外史料",
+    "不是逐句翻译，保留主要主题及影响理解的条件，参考文献未逐条改写"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "frozen_at_utc": "2026-10-18T12:47:27.853570+00:00",
+  "skill_commit": "7d2e49f771bb9996a15394743fdb01627da9f26b",
+  "runs": {
+    "A1": {
+      "draft.md": {
+        "sha256": "34c568cc7b63c245c9a53adc4ebfaf8aecf5ad29e88fff4a16784bedc02a8d92",
+        "unicode_characters": 13552,
+        "han_characters": 11742
+      },
+      "review.md": {
+        "sha256": "315f9a8664f60be4fcd0ed08d473d7a891b41e6b922666a1539effcae633ead1",
+        "unicode_characters": 4503,
+        "han_characters": 3235
+      },
+      "final.md": {
+        "sha256": "87fccb0541dce27a25b58e9eb17887bff277497dd8007ce12f3118a4a01362b7",
+        "unicode_characters": 13832,
+        "han_characters": 11942
+      },
+      "run.json": {
+        "sha256": "78ca7982aa97944d02d1ca77d66040ecb7601de23cfd8f53940d28a7db532d2e",
+        "unicode_characters": 4900,
+        "han_characters": 133
+      }
+    },
+    "A2": {
+      "draft.md": {
+        "sha256": "e9748fa5c6452165c9aa54c4bba2dd1084356f3df322001d11e16d8070c8408b",
+        "unicode_characters": 13856,
+        "han_characters": 11905
+      },
+      "review.md": {
+        "sha256": "78cf3d845f783045662b98e40009015913ad48f6e3142a93ca073787252ed382",
+        "unicode_characters": 3509,
+        "han_characters": 2183
+      },
+      "final.md": {
+        "sha256": "7d5c367078676b55931c0a769d99dea8697ac457ed586b4d6feaaa4fc8e803c9",
+        "unicode_characters": 14120,
+        "han_characters": 12118
+      },
+      "run.json": {
+        "sha256": "13f9283ae973662c0ba12caef5fa57e6038603c6216ed2f5881d2b009f275867",
+        "unicode_characters": 3964,
+        "han_characters": 0
+      }
+    },
+    "B1": {
+      "draft.md": {
+        "sha256": "9f5981779352b335c52494dd469663c0cefcd0b7ac27dd27682e5f127a5b994d",
+        "unicode_characters": 11306,
+        "han_characters": 9296
+      },
+      "review.md": {
+        "sha256": "749087e58b46a8c6dc704db7d023f8915535a848a43596fbb9a9e893609add05",
+        "unicode_characters": 5891,
+        "han_characters": 2926
+      },
+      "final.md": {
+        "sha256": "a04f2f75516e445c5b61bde2c58c855aa16be1fea98db4f363fa17d3d3483670",
+        "unicode_characters": 11705,
+        "han_characters": 9640
+      },
+      "run.json": {
+        "sha256": "4b792591443cf1483928e665499b497f3bf1c73f0b8cacd04b5b159472c9b716",
+        "unicode_characters": 5094,
+        "han_characters": 133
+      }
+    },
+    "B2": {
+      "draft.md": {
+        "sha256": "f2e1a8a7f42438222c846451529ed5d39203a4ac95f1322f324cb345e3f94989",
+        "unicode_characters": 13107,
+        "han_characters": 11194
+      },
+      "review.md": {
+        "sha256": "93cf579952bc4cdfc898a9edb0e6a26164930929de0d69cee4f69fbac50b3f3e",
+        "unicode_characters": 4797,
+        "han_characters": 2811
+      },
+      "final.md": {
+        "sha256": "de5478147254301ac3b25693f3d2d70c4ffe10003ca0cb00b0a4e03a455c3d82",
+        "unicode_characters": 14191,
+        "han_characters": 12135
+      },
+      "run.json": {
+        "sha256": "ec56562c6ea299af45128fa5d1876c99698a91348b65d087086a576276eb8d82",
+        "unicode_characters": 4622,
+        "han_characters": 53
+      }
+    },
+    "C1": {
+      "draft.md": {
+        "sha256": "ca559022c6071985b3f6753b61ea004244e431bb91cc1bb88b733d5fe687e975",
+        "unicode_characters": 9570,
+        "han_characters": 8163
+      },
+      "review.md": {
+        "sha256": "7a71dd9d4350c1fc887d596d24242f7b84d552708c929d002db25ce1e292c996",
+        "unicode_characters": 5062,
+        "han_characters": 3316
+      },
+      "final.md": {
+        "sha256": "b76eeef27d55a7d60d97b3e8b2dbff74840a17db9776d8730c0b5d9c629f8be5",
+        "unicode_characters": 10473,
+        "han_characters": 8972
+      },
+      "run.json": {
+        "sha256": "d0c3d3d90d25259344fc32404b8192d4da92184720a8baa29ed67e1042fcd05b",
+        "unicode_characters": 4908,
+        "han_characters": 530
+      }
+    },
+    "C2": {
+      "draft.md": {
+        "sha256": "8b69ee78b14ddaf421d82a5783e67eb5c177e31469fe7b0282525ed8f18e0370",
+        "unicode_characters": 16181,
+        "han_characters": 13593
+      },
+      "review.md": {
+        "sha256": "da1701e61e64e9761255f43e514026d6943fa72ed124b1e610d4ee25b6b4c960",
+        "unicode_characters": 5154,
+        "han_characters": 3155
+      },
+      "final.md": {
+        "sha256": "90bd774859b36bd458b8fd9ad8f85ef0df990cd23b625dd5ed7f38fa46c99ec1",
+        "unicode_characters": 16642,
+        "han_characters": 14004
+      },
+      "run.json": {
+        "sha256": "96d6ea654d3f4e97b2d254faeb3bd1299e3c03de5189ac2683ecd15997017930",
+        "unicode_characters": 6980,
+        "han_characters": 0
+      }
+    }
+  },
+  "controlled_request": "请使用 sky-article-rewriter，将提供的原文完整测试范围重构为面向无相关背景中文成年人的独立可读文章。保留原文核心表达、重要条件、分歧与信息归属，循序渐进解释必要难点。未指定字数，按技能默认方式决定篇幅；不得把全文改写缩成议题目录或用未披露节选代替。完成草稿后执行技能步骤5的原文回查与修订，再交付正文及必要来源。",
+  "request_verification_note": "六次生成任务均直接传入此请求。run.json字段由各生成者独立记录，部分未重复保存完整请求文本；统一请求以protocol及协调器实际派发为依据，不把缺少字段误报为内容不一致。"
+}

@@ -1,0 +1,175 @@
+{
+  "run_id": "C2",
+  "task": "sky-article-rewriter independent forward evaluation",
+  "date": "2026-10-18",
+  "skill_frozen_commit": "7d2e49f771bb9996a15394743fdb01627da9f26b",
+  "skill": {
+    "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/frozen-skill/SKILL.md",
+    "sha256": "af71496570354df76081aa7ec6e6fdf2f8dfab6a8703976d935418ed3ea6b8d0",
+    "bytes": 22032,
+    "unicode_characters": 8246,
+    "whitespace_tokens": 296,
+    "lines": 170,
+    "han_characters": 6203
+  },
+  "skill_references_read": [
+    {
+      "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/frozen-skill/references/technical.md",
+      "sha256": "4187fda1647c4bc2d10bca2fde6e41feb610b6687296acb32a5dc5fd83aecc36",
+      "bytes": 5021,
+      "unicode_characters": 1789,
+      "whitespace_tokens": 83,
+      "lines": 49,
+      "han_characters": 1441
+    },
+    {
+      "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/frozen-skill/references/long-content-and-evaluation.md",
+      "sha256": "8a0aaf19a524abbcd5e92b8e905604bc2719c7beefc5ef8d9aed8709c6c6a56f",
+      "bytes": 6285,
+      "unicode_characters": 2283,
+      "whitespace_tokens": 132,
+      "lines": 63,
+      "han_characters": 1830
+    },
+    {
+      "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/frozen-skill/references/restructuring-guide.md",
+      "sha256": "229091bc47c81e59f90361593c820070fff7aa3021eeb9356cab2db100130dce",
+      "bytes": 9009,
+      "unicode_characters": 3429,
+      "whitespace_tokens": 291,
+      "lines": 129,
+      "han_characters": 2504
+    }
+  ],
+  "source": {
+    "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/sources/C-blockchain.txt",
+    "sha256": "a651711e13da254da71fc63221f379cb730994505ea687929a92e2fcf6f04818",
+    "bytes": 168228,
+    "unicode_characters": 167395,
+    "whitespace_tokens": 23720,
+    "lines": 2719,
+    "han_characters": 0
+  },
+  "source_pdf": {
+    "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/sources/C-blockchain.pdf",
+    "sha256": "8cb346731900118be97a2eaf2a1613b2ed58922eb99ab1b766960932a741d0e6",
+    "physical_pages": 68,
+    "publication_frontmatter_claim": "66 pages (October 2018); distinct from PDF physical page count"
+  },
+  "source_url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/nist.ir.8202.pdf",
+  "source_read": {
+    "complete": true,
+    "sequential_successful_ranges_inclusive": [
+      [
+        1,
+        350
+      ],
+      [
+        351,
+        700
+      ],
+      [
+        701,
+        1050
+      ],
+      [
+        1051,
+        1400
+      ],
+      [
+        1401,
+        1750
+      ],
+      [
+        1751,
+        2100
+      ],
+      [
+        2101,
+        2450
+      ],
+      [
+        2451,
+        2718
+      ]
+    ],
+    "initial_read_truncation": "Initial lines 1-700 tool result was truncated; retried as 1-350 and 351-700. Complete-read claim relies on successful smaller ranges.",
+    "scope": "All pages 1-68, executive summary, chapters 1-9, appendices A-B and references C. References read but not rewritten individually."
+  },
+  "pdf_visual_check": {
+    "skill_path": "/Users/skyzizhu/.codex/skills/pdf/SKILL.md",
+    "rendered_and_viewed_physical_pages": [
+      21,
+      28,
+      38,
+      39,
+      53,
+      61,
+      62,
+      64
+    ],
+    "method": "pdftoppm PNG at scale-to 1400, then view_image for each page",
+    "warnings": "Fontconfig cannot load default config; actual image inspection showed readable graphics and labels.",
+    "evidence_directory": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/C2/figures"
+  },
+  "method": {
+    "processing_intensity": "full reconstruction; long source read in batches; one global article",
+    "core_and_mapping": "review.md",
+    "reader": "Chinese adults without domain background",
+    "length_policy": "No user word count and no fixed compression ratio; standard-depth complete guide; explanation expanded at dependencies and repeated definitions compressed.",
+    "draft_preserved": true,
+    "step_5_completed": true,
+    "actual_review_changes": "13 text replacements plus source terminology note, documented in review.md",
+    "final_check": "Entire draft read in two tool batches, changed final passages and surrounding transitions checked, title/opening/ending rechecked.",
+    "external_browsing": false,
+    "external_factual_additions": false,
+    "real_reader_test": false,
+    "other_evaluation_runs_read": false,
+    "source_rules_or_protocol_modified": false,
+    "git_commit_created": false
+  },
+  "artifacts": {
+    "draft.md": {
+      "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/C2/draft.md",
+      "sha256": "8b69ee78b14ddaf421d82a5783e67eb5c177e31469fe7b0282525ed8f18e0370",
+      "bytes": 46139,
+      "unicode_characters": 16181,
+      "whitespace_tokens": 202,
+      "lines": 313,
+      "han_characters": 13593
+    },
+    "review.md": {
+      "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/C2/review.md",
+      "sha256": "da1701e61e64e9761255f43e514026d6943fa72ed124b1e610d4ee25b6b4c960",
+      "bytes": 12411,
+      "unicode_characters": 5154,
+      "whitespace_tokens": 133,
+      "lines": 79,
+      "han_characters": 3155
+    },
+    "final.md": {
+      "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/C2/final.md",
+      "sha256": "90bd774859b36bd458b8fd9ad8f85ef0df990cd23b625dd5ed7f38fa46c99ec1",
+      "bytes": 47496,
+      "unicode_characters": 16642,
+      "whitespace_tokens": 203,
+      "lines": 315,
+      "han_characters": 14004
+    }
+  },
+  "compressions_disclosed": [
+    "Administrative front matter and acknowledgments not turned into article sections.",
+    "Appendix A abbreviations explained where used; not a reproduced acronym inventory.",
+    "Appendix B overlapping definitions merged into mechanism explanations; standalone peripheral glossary words such as Turing complete not expanded.",
+    "Full digest strings, four mining nonce ranges and all brand example lists compressed while preserving explanatory relations.",
+    "References preserved as source provenance, not separately rewritten."
+  ],
+  "limitations": [
+    "No target-reader feedback or independent expert validation.",
+    "Historical citations not independently fact checked; inherited claims retain report attribution and 2018 time context.",
+    "No contemporary platform, energy, investment or legal guidance added.",
+    "Source-internal differences for permissioned and round robin, and source signature simplification disclosed.",
+    "Smart-contract exceeded-limit outcome attributed to report conceptual description; no claim about full platform fee or failure-record semantics.",
+    "Not a line-by-line translation or exhaustive glossary reproduction."
+  ]
+}

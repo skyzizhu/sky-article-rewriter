@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-18",
+  "frozen_commit": "7d2e49f771bb9996a15394743fdb01627da9f26b",
+  "prompt": "请使用 sky-article-rewriter，将提供的原文完整测试范围重构为面向无相关背景中文成年人的独立可读文章。保留原文核心表达、重要条件、分歧与信息归属，循序渐进解释必要难点。未指定字数，按技能默认方式决定篇幅；不得把全文改写缩成议题目录或用未披露节选代替。完成草稿后执行技能步骤5的原文回查与修订，再交付正文及必要来源。",
+  "design": "三份材料，各用两个互不读取对方产物的独立上下文运行；每份保存草稿、回查修改记录、交付稿，六份交付完成前不改变规则；跨组评审在六份冻结后进行。",
+  "limitations": [
+    "同模型系列不同上下文，不是模型间对照",
+    "不存在真实读者行为数据",
+    "多人样本为正式听证，不等同自然播客",
+    "单人受访者曾出现在先前短篇机构传记测试中，本次106页口述原文为新测试材料"
+  ],
+  "sources": [
+    {
+      "id": "A-armstrong",
+      "requested_url": "https://www.nasa.gov/wp-content/uploads/2025/07/armstrongna-9-19-01.pdf",
+      "resolved_url": "https://www.nasa.gov/wp-content/uploads/2025/07/armstrongna-9-19-01.pdf",
+      "pdf_pages": 106,
+      "words": 33224,
+      "text_sha256": "0c7409839478da8991ceb5ab96d3fe55847f7f7d63ba7841e5b6b825de596f85",
+      "chars": 185702
+    },
+    {
+      "id": "B-hearing",
+      "requested_url": "https://www.nasa.gov/history/rogersrep/v4part6.htm",
+      "resolved_url": "https://www.nasa.gov/history/rogersrep/v4part6.htm",
+      "pdf_pages": null,
+      "words": 39256,
+      "text_sha256": "c7107f5c2422eb96ce8e0b65de97dfd12a08f9d1986f9316425408b0c9c52241",
+      "chars": 217503
+    },
+    {
+      "id": "C-blockchain",
+      "requested_url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/nist.ir.8202.pdf",
+      "resolved_url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/nist.ir.8202.pdf",
+      "pdf_pages": 68,
+      "words": 23720,
+      "text_sha256": "a651711e13da254da71fc63221f379cb730994505ea687929a92e2fcf6f04818",
+      "chars": 167395
+    }
+  ],
+  "originals_policy": "完整原文只留本地，不提交原始PDF、HTML及提取文本；仓库保存来源、指纹和模型生成产物。",
+  "execution_note": "第一轮三次上下文在协调器收到额度限制后中断；用户于2026-10-18要求继续，同上下文从已保存产物恢复，未重置草稿。第二轮另建独立上下文。详见各run.json。"
+}

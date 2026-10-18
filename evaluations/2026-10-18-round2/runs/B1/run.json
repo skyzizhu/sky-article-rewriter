@@ -1,0 +1,110 @@
+{
+  "run_id": "B1",
+  "task": "independent frozen sky-article-rewriter validation",
+  "date": "2026-10-18",
+  "status": "completed_main_webpage_text_scope",
+  "skill": {
+    "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-validation2-20261018/frozen-skill/SKILL.md",
+    "frozen_commit": "7d2e49f771bb9996a15394743fdb01627da9f26b",
+    "sha256": "af71496570354df76081aa7ec6e6fdf2f8dfab6a8703976d935418ed3ea6b8d0",
+    "references_read": [
+      "references/long-content-and-evaluation.md",
+      "references/interview-podcast.md",
+      "references/restructuring-guide.md"
+    ]
+  },
+  "prompt": "请使用 sky-article-rewriter，将提供的原文完整测试范围重构为面向无相关背景中文成年人的独立可读文章。保留原文核心表达、重要条件、分歧与信息归属，循序渐进解释必要难点。未指定字数，按技能默认方式决定篇幅；不得把全文改写缩成议题目录或用未披露节选代替。完成草稿后执行技能步骤5的原文回查与修订，再交付正文及必要来源。",
+  "scope": {
+    "source_url": "https://www.nasa.gov/history/rogersrep/v4part6.htm",
+    "title": "Hearings of the Presidential Commission on the Space Shuttle Challenger Accident, February 14, 1986 morning",
+    "hearing_pages": "1064–1249",
+    "text_pages": "599–708",
+    "session_time": "08:05–12:35",
+    "source_metadata_words": 39256,
+    "source_read_to_end": true,
+    "read_batches_file_lines": [
+      "1–500",
+      "501–1100",
+      "1101–1750",
+      "1751–2400",
+      "2401–3050",
+      "3051–3700",
+      "3701–4350",
+      "4351–5000",
+      "5001–5650",
+      "5651–5927 (end)"
+    ],
+    "truncated_initial_read_recovered": true,
+    "html_structure_inspected": true,
+    "linked_image_exhibit_pages_read": false,
+    "image_limit": "Main HTML contains no embedded images. All main-page speech, exhibit titles, and ending were read. Linked exhibit image pages were not traversed; no table/image-only number or memo content is invented. Final article discloses this boundary.",
+    "not_scope": "Other sessions, entire multivolume report, subsequent accident findings"
+  },
+  "source_file": {
+    "file": "B-hearing.txt",
+    "utf8_bytes": 217523,
+    "unicode_characters_including_whitespace": 217503,
+    "unicode_characters_excluding_whitespace": 172017,
+    "han_characters": 0,
+    "whitespace_delimited_tokens": 39256,
+    "sha256": "c7107f5c2422eb96ce8e0b65de97dfd12a08f9d1986f9316425408b0c9c52241"
+  },
+  "artifacts": [
+    {
+      "file": "draft.md",
+      "utf8_bytes": 31864,
+      "unicode_characters_including_whitespace": 11306,
+      "unicode_characters_excluding_whitespace": 11050,
+      "han_characters": 9296,
+      "whitespace_delimited_tokens": 142,
+      "sha256": "9f5981779352b335c52494dd469663c0cefcd0b7ac27dd27682e5f127a5b994d"
+    },
+    {
+      "file": "review.md",
+      "utf8_bytes": 12890,
+      "unicode_characters_including_whitespace": 5891,
+      "unicode_characters_excluding_whitespace": 5495,
+      "han_characters": 2926,
+      "whitespace_delimited_tokens": 379,
+      "sha256": "749087e58b46a8c6dc704db7d023f8915535a848a43596fbb9a9e893609add05"
+    },
+    {
+      "file": "final.md",
+      "utf8_bytes": 33009,
+      "unicode_characters_including_whitespace": 11705,
+      "unicode_characters_excluding_whitespace": 11447,
+      "han_characters": 9640,
+      "whitespace_delimited_tokens": 143,
+      "sha256": "a04f2f75516e445c5b61bde2c58c855aa16be1fea98db4f363fa17d3d3483670"
+    }
+  ],
+  "method": {
+    "routing": "formal multi-party hearing + technical risk and organizational decision + independent Chinese adult reading",
+    "intensity": "full restructuring of complete main-page transcript; source attribution and disputed conditions retained",
+    "core": "Reconstruct initial no-launch recommendation, managerial reversal, technical evidence and unresolved limits, continuing engineer dissent, escalation gap, personal refusal to sign and ongoing evidence preservation.",
+    "step5_completed": true,
+    "actual_revision_groups": 10,
+    "external_historical_facts_added": false,
+    "added_explanation": "One explicitly bounded conceptual rubber-strip analogy and approximate Fahrenheit-to-Celsius arithmetic.",
+    "evidence_policy": "All technical and historical claims derive from supplied hearing statements; hypotheses and retrospective or hearsay statements remain attributed.",
+    "source_checks": "See review.md for concrete hearing/text-page anchors and actual draft→final modifications."
+  },
+  "independence": {
+    "other_runs_read": false,
+    "existing_evaluation_conclusions_read": false,
+    "skill_inputs_protocol_modified": false,
+    "git_commit_created": false,
+    "subagents_spawned": false
+  },
+  "continuation": {
+    "coordinator_reported_quota_interruption": true,
+    "draft_and_final_already_saved_on_resume": true,
+    "draft_regenerated_after_resume": false,
+    "resume_action": "continued existing same-context source verification; preserved draft; wrote review and run metadata"
+  },
+  "limitations": [
+    "Linked image exhibits are outside the actual read evidence; their titles were read and limitation is disclosed.",
+    "Model self-review only; no independent human reader behavior data.",
+    "Chinese length is reported by Unicode/Han counts, not treated as an English-style word count."
+  ]
+}
