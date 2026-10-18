@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-18",
+  "before_commit": "c3612f9ec435f1ef81bcf0c2027f4b1a53ac593b",
+  "method": "对既有两篇草稿执行新版交付复核，非新生成、非盲测、非读者实验",
+  "sha256": {
+    "SKILL.md": "af71496570354df76081aa7ec6e6fdf2f8dfab6a8703976d935418ed3ea6b8d0",
+    "references/writing-guide.md": "f51a1bcd46ad40b52cbcf1e64c767847c9cd859675d1c59eb2927a4bcc523791",
+    "references/long-content-and-evaluation.md": "8a0aaf19a524abbcd5e92b8e905604bc2719c7beefc5ef8d9aed8709c6c6a56f",
+    "evaluations/2026-10-18/revised/beiying.md": "c9c8d6c76a79571491b5754d6fdcc78d744352f68ce3545f5ce0e656ed56bf29",
+    "evaluations/2026-10-18/revised/guxiang.md": "350c66c48ae93a540aadd1cf3ea8610431bad2f885c9f89ca3b2cef019bd5aaa",
+    "evaluations/2026-10-18/revised/delivery-beiying.md": "1897f4455c403c0848434352609d9db031b91227137233845e4df2935c5f4f92",
+    "evaluations/2026-10-18/revised/delivery-guxiang.md": "17e87de445ebd9050992ccfaf1952dc39d22ef4a25a1dddcd45e9b202bd6886e"
+  }
+}
