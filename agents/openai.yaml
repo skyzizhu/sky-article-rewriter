@@ -1,0 +1,4 @@
+interface:
+  display_name: "文章精读重构"
+  short_description: "按采访、技术、生活、纪实等内容选择写法，重组为通俗连贯的导读，用贴切案例解释难点。"
+  default_prompt: "请使用 $sky-article-rewriter 根据这份内容的形式和阅读难点，重组为通俗连贯、循序渐进的文章，按需用相似案例解释，并保留原意与重要限制。"
