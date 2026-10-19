@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-19",
+  "files": {
+    "runs/A/draft.md": "469005a2a8021d8e61433a0ea89e041354d02bce5e5df8898a84f26eec77ed86",
+    "runs/A/final.md": "b138970d2406d1064c30b5b78ddb93a3e55c3ac9ba73e1b6e4390328a9dfea20",
+    "runs/A/review.md": "19bf14c2c6403ccf6fd241394ebf69ff4dbb4bc11c2cc6d5a84d2b248b58916b",
+    "runs/B/draft.md": "fcf8b83ed984aebcf52c1862f92a40f16acdb768715b762d2954b620207d7377",
+    "runs/B/final.md": "ac00fdecb5795c1de02464c8f23692a5eb2e3273cf673c89fd711dc67f68b3e8",
+    "runs/B/review.md": "f22b6747644ce43506ddb68818ca91bc9c1a5a86b373681d9b6cad6439b8ae26",
+    "runs/C/draft.md": "a53358914d73a6a88f1d147052501a738450347f44ff3022d661cee994a8c175",
+    "runs/C/final.md": "a53358914d73a6a88f1d147052501a738450347f44ff3022d661cee994a8c175",
+    "runs/C/review.md": "274a65d8ccff21e6e769446feadde9beafa9ea83b687b3650a71e86b6a63094d",
+    "runs/D/draft.md": "3b3143e5d2d4542454f880cf197dee055e080204cfc1f8cfc40d0a2a2651a523",
+    "runs/D/final.md": "e44e230b91526a329d74fd2179acac90c79ed40595e2f5878c2cf2a70ee09223",
+    "runs/D/review.md": "0ce67ec73685d2834f4cad649cd60e5e344f6e6c28296b866030bcd965b2e9eb",
+    "runs/run.json": "48838692453c748dc368278b33d542163f59cc347ca3e7a6cc36a12c2d16efda"
+  },
+  "counts": {
+    "A": {
+      "source": {
+        "characters": 495,
+        "han_characters": 431
+      },
+      "draft": {
+        "characters": 537,
+        "han_characters": 466
+      },
+      "final": {
+        "characters": 544,
+        "han_characters": 470
+      }
+    },
+    "B": {
+      "source": {
+        "characters": 515,
+        "han_characters": 431
+      },
+      "draft": {
+        "characters": 554,
+        "han_characters": 479
+      },
+      "final": {
+        "characters": 531,
+        "han_characters": 458
+      }
+    },
+    "C": {
+      "source": {
+        "characters": 224,
+        "han_characters": 187
+      },
+      "draft": {
+        "characters": 224,
+        "han_characters": 187
+      },
+      "final": {
+        "characters": 224,
+        "han_characters": 187
+      }
+    },
+    "D": {
+      "source": {
+        "characters": 298,
+        "han_characters": 256
+      },
+      "draft": {
+        "characters": 304,
+        "han_characters": 265
+      },
+      "final": {
+        "characters": 299,
+        "han_characters": 257
+      }
+    }
+  }
+}

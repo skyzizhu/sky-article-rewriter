@@ -1,0 +1,75 @@
+{
+  "run_type": "限定范围前向验证；模型自检；新编虚构控制材料",
+  "input": {
+    "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-concise-review-20261019/inputs.json",
+    "sha256": "4a77b90ba48b5c2231d3c33845a7b9e66df96dd5fe8ff5076e91266ec2c87d4a",
+    "read_scope": "完整JSON，包括notice、request及A/B/C/D的mode、constraints（如有）、完整source与D完整draft"
+  },
+  "loaded_skill_files": [
+    {
+      "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-concise-review-20261019/skill/SKILL.md",
+      "sha256": "3ef666a975b17d6c80784df1e2cd36ce3d6d71cb8db0430bc16594e873846907",
+      "read_scope": "全文，工具输出无截断"
+    },
+    {
+      "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-concise-review-20261019/skill/references/technical.md",
+      "sha256": "4187fda1647c4bc2d10bca2fde6e41feb610b6687296acb32a5dc5fd83aecc36",
+      "read_scope": "全文，工具输出无截断"
+    },
+    {
+      "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-concise-review-20261019/skill/references/interview-podcast.md",
+      "sha256": "6698788b37a883027e3082a721dc0220eba44e0b6f743531cf476549dbf615ba",
+      "read_scope": "全文，工具输出无截断"
+    },
+    {
+      "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-concise-review-20261019/skill/references/life-documentary-opinion.md",
+      "sha256": "4c38f089d70b9765beb6fe6fffcbf61ae1e03e7ee17ad5f0e9c063e51f6fb848",
+      "read_scope": "全文，工具输出无截断"
+    },
+    {
+      "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-concise-review-20261019/skill/references/narrative-and-flow.md",
+      "sha256": "123cc79854b48b8fc8c14395f8d8348a36fb1a89e8c24a303630e513ece9ee74",
+      "read_scope": "全文，工具输出无截断"
+    },
+    {
+      "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-concise-review-20261019/skill/references/long-content-and-evaluation.md",
+      "sha256": "8a0aaf19a524abbcd5e92b8e905604bc2719c7beefc5ef8d9aed8709c6c6a56f",
+      "read_scope": "全文，工具输出无截断"
+    },
+    {
+      "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-concise-review-20261019/skill/references/restructuring-guide.md",
+      "sha256": "229091bc47c81e59f90361593c820070fff7aa3021eeb9356cab2db100130dce",
+      "read_scope": "全文，工具输出无截断"
+    }
+  ],
+  "case_scope": {
+    "A": "完整5个正文段，技术说明；先保存草稿再审稿修订",
+    "B": "全部主持/林/周/陈发言，按议题重构；先保存草稿再审稿修订",
+    "C": "完整4个正文段，第一人称、开放结尾；先保存草稿，审稿后保留正文",
+    "D": "完整5个原文正文段和给定4段draft；给定draft作草稿，执行审稿修订"
+  },
+  "loaded_reference_purpose": {
+    "technical.md": "A机制与测试口径",
+    "interview-podcast.md": "B说话者归属、提案和澄清",
+    "life-documentary-opinion.md": "C生活随笔、D纪实边界",
+    "narrative-and-flow.md": "C叙事细节、D发生与获知时点",
+    "long-content-and-evaluation.md": "评估部分的自检与真实反馈边界；文件全文读取，未执行长文分段验证",
+    "restructuring-guide.md": "B跨轮次按议题重组及条件就近呈现"
+  },
+  "limits": [
+    "仅验证这4项完整短文及本次审稿过程",
+    "无真实读者试验，不推断阅读意愿或总体稳定性",
+    "未重跑长文",
+    "未浏览、未增外部事实或案例；统计术语的释义为既有指标的解释",
+    "未读取旧评测、其他运行输出或此前对话",
+    "未修改技能、输入或Git；未派生agent",
+    "审稿与复核由当前执行上下文自检，未独立复核，不保证检出所有问题"
+  ],
+  "output_layout": "outputs/{A,B,C,D}/{draft.md,review.md,final.md}",
+  "actual_revision": {
+    "A": "澄清20次测试的中位时间释义",
+    "B": "删去末句未经原文明示的扩围决策框架",
+    "C": "审稿后正文保留，draft与final一致",
+    "D": "纠正主旨、时点、来源、因果与无依据结论，删重复并恢复必要信息"
+  }
+}

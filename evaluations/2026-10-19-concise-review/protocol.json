@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-19",
+  "baseline_commit": "9a98c89126147b75a9eb431b6c4b03acbb45e416",
+  "request": "请使用 sky-article-rewriter 完成每项任务，面向无相关背景的中文成年人，保留原文核心及重要条件，通俗易懂、简洁明了；未指定字数，按内容决定。A/B/C先写草稿，再执行第5步审稿、实际修订和复核。D以提供的draft为草稿，执行第5步。每项保存draft.md、review.md、final.md，review仅作本次评测留证，不属于对读者的文章输出。",
+  "scope": "3个完整短文重构＋1个完整短稿审稿；虚构控制材料，非真实读者评测；一个独立上下文处理四项，不等于四次独立运行。",
+  "inputs_sha256": "4a77b90ba48b5c2231d3c33845a7b9e66df96dd5fe8ff5076e91266ec2c87d4a",
+  "skill_files": {
+    "SKILL.md": "3ef666a975b17d6c80784df1e2cd36ce3d6d71cb8db0430bc16594e873846907",
+    "agents/openai.yaml": "2c702f51e260a9ced2387797bbe64ab1536393d18fa78e04b3d54385b04f4b79",
+    "references/examples.md": "6e80a10910ad18677e7bca645b6f19f42152d5b221040d999795c17d8ba72112",
+    "references/interview-podcast.md": "6698788b37a883027e3082a721dc0220eba44e0b6f743531cf476549dbf615ba",
+    "references/life-documentary-opinion.md": "4c38f089d70b9765beb6fe6fffcbf61ae1e03e7ee17ad5f0e9c063e51f6fb848",
+    "references/long-content-and-evaluation.md": "8a0aaf19a524abbcd5e92b8e905604bc2719c7beefc5ef8d9aed8709c6c6a56f",
+    "references/narrative-and-flow.md": "123cc79854b48b8fc8c14395f8d8348a36fb1a89e8c24a303630e513ece9ee74",
+    "references/restructuring-guide.md": "229091bc47c81e59f90361593c820070fff7aa3021eeb9356cab2db100130dce",
+    "references/technical.md": "4187fda1647c4bc2d10bca2fde6e41feb610b6687296acb32a5dc5fd83aecc36",
+    "references/writing-guide.md": "8245b5fb81ff3064afec99033da36c3ed6656218af2eae17b9e1780f7e8cb9d7"
+  }
+}
