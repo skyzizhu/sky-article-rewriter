@@ -1,0 +1,7 @@
+{
+  "baseline_commit": "4b0b84c74265d06a756bdcc5c1c07df60388f0d6",
+  "skill_sha256": "26ee0297d0d7bd2027fb1509923ea6ea5696b7c1a67bba44816f621690e8896f",
+  "input_sha256": "9bfbea4831c851d14a834074f451f1ae0d16b759afae06f0de2e14d122b385fe",
+  "scope": "7个片段的交付回查；4个真实回归片段、3个新编控制片段；一个独立上下文运行；非六篇全量重跑，非真实读者试读。",
+  "rule_edit_during_run": false
+}

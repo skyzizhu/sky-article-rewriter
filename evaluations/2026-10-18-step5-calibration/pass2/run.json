@@ -1,0 +1,118 @@
+{
+  "task": "对三份独立source与draft执行技能第5步，回查、实际修订及通读",
+  "scope": "仅校准所提供片段，不代表全文重跑；R为真实片段，H为本次新编控制材料。",
+  "input": {
+    "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-step5-calibration-20261018/pass2-inputs.json",
+    "sha256": "567342561ceb7f1706fb1f31ae721c6874fa63b79112b36fe0000960f40ef353"
+  },
+  "skill": {
+    "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter/SKILL.md",
+    "sha256": "83ce971f3c2d84cee7bb3f75f359039e319d7ba20c2cefb306e4120e404ea9ba",
+    "read": "完整SKILL.md",
+    "references_read": []
+  },
+  "read_ranges": [
+    {
+      "id": "R4",
+      "source_location": "NISTIR8202 PDF38—51（含相关前后章节）",
+      "source_chars": 38718,
+      "source_read_char_ranges": [
+        [
+          0,
+          6000
+        ],
+        [
+          6000,
+          16000
+        ],
+        [
+          16000,
+          27000
+        ],
+        [
+          27000,
+          38718
+        ]
+      ],
+      "draft_chars": 2514,
+      "draft_read_char_ranges": [
+        [
+          0,
+          2514
+        ]
+      ],
+      "range_convention": "Python Unicode字符，下标0起、右端不含"
+    },
+    {
+      "id": "H1",
+      "source_location": "本次虚构测试输入",
+      "source_chars": 102,
+      "source_read_char_ranges": [
+        [
+          0,
+          102
+        ]
+      ],
+      "draft_chars": 104,
+      "draft_read_char_ranges": [
+        [
+          0,
+          104
+        ]
+      ],
+      "range_convention": "Python Unicode字符，下标0起、右端不含"
+    },
+    {
+      "id": "H2",
+      "source_location": "本次虚构测试输入",
+      "source_chars": 101,
+      "source_read_char_ranges": [
+        [
+          0,
+          101
+        ]
+      ],
+      "draft_chars": 70,
+      "draft_read_char_ranges": [
+        [
+          0,
+          70
+        ]
+      ],
+      "range_convention": "Python Unicode字符，下标0起、右端不含"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "R4",
+      "revised": "R4/revised.md",
+      "review": "R4/review.md"
+    },
+    {
+      "id": "H1",
+      "revised": "H1/revised.md",
+      "review": "H1/review.md"
+    },
+    {
+      "id": "H2",
+      "revised": "H2/revised.md",
+      "review": "H2/review.md"
+    }
+  ],
+  "limitations": [
+    "仅使用本次输入的原文与草稿及指定技能，未读取其他运行或pass1产物。",
+    "R4仅回查三个交付片段，非报告全文重构；PDF页号沿用输入标签。",
+    "未访问外部来源，未独立核验原报告的历史案例、项目状态或研究结论。",
+    "H1和H2为本次新编控制材料，不作现实事件或实测结论。",
+    "未打分，未进行真实读者试读，未声称阅读效果。"
+  ],
+  "final_readback": "已完整重读三份revised.md，末次局部调整再核对对应段落；R4全节点短释取自第50页新全节点取得账本数据的描述。",
+  "output_sha256": {
+    "H1/review.md": "4fd963769a2688f5e09fab8fdcdbb05095ca1f80a4c10016edfcef410901aa8c",
+    "H1/revised.md": "c71706d756ff84af83ee784a9492d4bb59c0d1e8b581a93f6b3bfce49de9c4ac",
+    "H2/review.md": "356040490a541d37a03486df48c2d26faea8cdf724f666eb376b97dddf73b649",
+    "H2/revised.md": "52a8b9d50d643671bd166eed2c56dbe95a72696082f3aef9ae33e7531f7504a7",
+    "R4/review.md": "3bfff50130562eb5e1425c1124b956194559c87bcc1664270e6b38c221160c45",
+    "R4/revised.md": "63d2f18fbabc5caaf7ee4b3bb4aee90b68a099366d33362e5c01d7295e49d6f3"
+  }
+}

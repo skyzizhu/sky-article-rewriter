@@ -1,0 +1,59 @@
+[
+  {
+    "id": "R1",
+    "type": "真实原文与旧交付片段",
+    "source_location": "NASA访谈PDF81",
+    "source_fragment_sha256": "2f4a006a02ad7a80746bf56a2734d9ade1c2e2e9da7499cbe260a77589849e42",
+    "draft_fragment_sha256": "3cd6322f653000cc02d139dad2d042479e0dbc8d85b18d06c5b1135cfaa32d50",
+    "source_url": "https://www.nasa.gov/wp-content/uploads/2025/07/armstrongna-9-19-01.pdf",
+    "draft_origin": "../2026-10-18-round2/runs/A1/final.md"
+  },
+  {
+    "id": "R2",
+    "type": "真实原文与旧交付片段",
+    "source_location": "NASA访谈PDF76—87、101—103（含对应前后文）",
+    "source_fragment_sha256": "db4d462d5ae70c26c9964cdd73385108375a0297b676922989a15295c4dd46ae",
+    "draft_fragment_sha256": "9afb00a55cacf8b3deca3b4d8f999b37872dedd5321f165c792ff294dcd333b1",
+    "source_url": "https://www.nasa.gov/wp-content/uploads/2025/07/armstrongna-9-19-01.pdf",
+    "draft_origin": "../2026-10-18-round2/runs/A2/final.md"
+  },
+  {
+    "id": "R3",
+    "type": "真实原文与旧交付片段",
+    "source_location": "NISTIR8202 PDF32—34",
+    "source_fragment_sha256": "27969cdfcee88f22e24e9e0f26f4fd2a33e1a06af1e759c9d6d4c11e10d847bf",
+    "draft_fragment_sha256": "7e2f1118899b6ba6b42fd5cb5a5fa9701c9dacd5bd18e5f726d46088e534faea",
+    "source_url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/nist.ir.8202.pdf",
+    "draft_origin": "../2026-10-18-round2/runs/C1/final.md"
+  },
+  {
+    "id": "R4",
+    "type": "真实原文与旧交付片段",
+    "source_location": "NISTIR8202 PDF38—51（含相关前后章节）",
+    "source_fragment_sha256": "1fe9a0484e9d830d364b9e30aa7c39fa5fb42fcf78c067bb3d5de7f3966724db",
+    "draft_fragment_sha256": "51b324b83f53417d3b9f4e6ccb3a0760904d31c5ceaf83bac1aae20cc5d298e1",
+    "source_url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/nist.ir.8202.pdf",
+    "draft_origin": "../2026-10-18-round2/runs/C2/final.md"
+  },
+  {
+    "id": "H1",
+    "type": "新编生活片段，非现实事件",
+    "source_location": "本次虚构测试输入",
+    "source_fragment_sha256": "ae7f44c2c8769883b33d06f04e10d37e254aed812c8e54015f04f70959f79197",
+    "draft_fragment_sha256": "20d323f1ad6bbb942ffcf5beae74724534d80a7fd1cf52bf12999c997a7dbc12"
+  },
+  {
+    "id": "H2",
+    "type": "新编技术片段，非实测结果",
+    "source_location": "本次虚构测试输入",
+    "source_fragment_sha256": "47281cf903a78c882cf8aaf9dba4304a5a5255a1bdaf7b4933e304dae1866f16",
+    "draft_fragment_sha256": "427bba17b07564c7ebfae63d31f47bf8d88e5e10b3b413e8f0b5b7001781fae5"
+  },
+  {
+    "id": "H3",
+    "type": "新编对话片段，非真实访谈",
+    "source_location": "本次虚构测试输入",
+    "source_fragment_sha256": "8b099cc36a6b204400fa94ce692cb92f9e9e4eaeafb4f95ab0d4b6ca90878603",
+    "draft_fragment_sha256": "ac3a1f64543c008ebd81bb60f257c298c318d5eacb5ecb2149bdc02a48fed320"
+  }
+]

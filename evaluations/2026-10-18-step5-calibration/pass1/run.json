@@ -1,0 +1,156 @@
+{
+  "scope": "限定范围的第5步片段回查、直接修订和通读；7份独立处理，未拼接，未全篇重跑。",
+  "input": {
+    "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-step5-calibration-20261018/inputs.json",
+    "sha256": "9bfbea4831c851d14a834074f451f1ae0d16b759afae06f0de2e14d122b385fe"
+  },
+  "skill": {
+    "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter/SKILL.md",
+    "sha256": "26ee0297d0d7bd2027fb1509923ea6ea5696b7c1a67bba44816f621690e8896f",
+    "read": "完整 SKILL.md；未读取 references，本轮第5步限定片段回查以主技能条款为依据。"
+  },
+  "read_ranges": [
+    {
+      "id": "R1",
+      "type": "真实原文与旧交付片段",
+      "source_location": "NASA访谈PDF81",
+      "source_char_range_0_based_half_open": [
+        0,
+        2047
+      ],
+      "draft_char_range_0_based_half_open": [
+        0,
+        77
+      ]
+    },
+    {
+      "id": "R2",
+      "type": "真实原文与旧交付片段",
+      "source_location": "NASA访谈PDF76—87、101—103（含对应前后文）",
+      "source_char_range_0_based_half_open": [
+        0,
+        30313
+      ],
+      "draft_char_range_0_based_half_open": [
+        0,
+        1393
+      ]
+    },
+    {
+      "id": "R3",
+      "type": "真实原文与旧交付片段",
+      "source_location": "NISTIR8202 PDF32—34",
+      "source_char_range_0_based_half_open": [
+        0,
+        10650
+      ],
+      "draft_char_range_0_based_half_open": [
+        0,
+        496
+      ]
+    },
+    {
+      "id": "R4",
+      "type": "真实原文与旧交付片段",
+      "source_location": "NISTIR8202 PDF38—51（含相关前后章节）",
+      "source_char_range_0_based_half_open": [
+        0,
+        38718
+      ],
+      "draft_char_range_0_based_half_open": [
+        0,
+        2514
+      ]
+    },
+    {
+      "id": "H1",
+      "type": "新编生活片段，非现实事件",
+      "source_location": "本次虚构测试输入",
+      "source_char_range_0_based_half_open": [
+        0,
+        102
+      ],
+      "draft_char_range_0_based_half_open": [
+        0,
+        104
+      ]
+    },
+    {
+      "id": "H2",
+      "type": "新编技术片段，非实测结果",
+      "source_location": "本次虚构测试输入",
+      "source_char_range_0_based_half_open": [
+        0,
+        101
+      ],
+      "draft_char_range_0_based_half_open": [
+        0,
+        70
+      ]
+    },
+    {
+      "id": "H3",
+      "type": "新编对话片段，非真实访谈",
+      "source_location": "本次虚构测试输入",
+      "source_char_range_0_based_half_open": [
+        0,
+        103
+      ],
+      "draft_char_range_0_based_half_open": [
+        0,
+        65
+      ]
+    }
+  ],
+  "reading_note": "首次整包工具输出被截断，未将其视作完整读取。随后 R2 source 分[0,15500)、[15500,30313)，R3完整[0,10650)，R4 source分[0,14000)、[14000,27000)、[27000,38718)重读，draft分别完整读取；R1/H1/H2/H3的source和draft在初次输出中完整可见。各次分批输出未截断。",
+  "limitations": [
+    "只使用inputs.json内每份自己的source和draft；未访问旧评测、其他运行产物、此前对话或外部资料。",
+    "R为真实片段，H为明确虚构控制材料；没有真实读者试验，没有阅读效果验证或评分。",
+    "未读取原始PDF全文，不验证转录或报告在外部世界的事实准确性。",
+    "只完成片段回查及修改后通读，不声称全篇重跑、无误保证或技能效果稳定。"
+  ],
+  "outputs": [
+    {
+      "id": "R1",
+      "revised": "R1/revised.md",
+      "review": "R1/review.md",
+      "body_changed": true
+    },
+    {
+      "id": "R2",
+      "revised": "R2/revised.md",
+      "review": "R2/review.md",
+      "body_changed": true
+    },
+    {
+      "id": "R3",
+      "revised": "R3/revised.md",
+      "review": "R3/review.md",
+      "body_changed": true
+    },
+    {
+      "id": "R4",
+      "revised": "R4/revised.md",
+      "review": "R4/review.md",
+      "body_changed": true
+    },
+    {
+      "id": "H1",
+      "revised": "H1/revised.md",
+      "review": "H1/review.md",
+      "body_changed": false
+    },
+    {
+      "id": "H2",
+      "revised": "H2/revised.md",
+      "review": "H2/review.md",
+      "body_changed": true
+    },
+    {
+      "id": "H3",
+      "revised": "H3/revised.md",
+      "review": "H3/review.md",
+      "body_changed": true
+    }
+  ]
+}

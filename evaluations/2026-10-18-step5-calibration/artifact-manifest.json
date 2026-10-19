@@ -1,0 +1,28 @@
+{
+  "completed_date_local": "2026-10-19",
+  "timezone": "Asia/Shanghai",
+  "files": {
+    "pass1/H1/review.md": "bbf20a2befb674bff46c124a6faa7e224b95dcec6b9902f5b03480030843e72b",
+    "pass1/H1/revised.md": "e9fb78740cc0fa2be00427fec97c0a980807213939afd01022aed5312e092693",
+    "pass1/H2/review.md": "b58e60afc6fd05d993d6e9e3dc80163084d6ac8820266c477f16510a23b0d9dc",
+    "pass1/H2/revised.md": "dbe6b5fc27fc921d257909e17c4a2dcfebe008ca6c24776046e2ecb7ee35f555",
+    "pass1/H3/review.md": "0f848f3850ae5d08bd404720ecd632a1038c4d0d5f8d6f4de2ed8c7386f13e54",
+    "pass1/H3/revised.md": "a035c49583327c0e3641097d66ba7065d391037363f43c9a7c1c0ad1f3cba8cc",
+    "pass1/R1/review.md": "e84d7d8f4b185458b1a9be4698ad41b95a95c0d1acc2bbf2eab08e85014ef1db",
+    "pass1/R1/revised.md": "ecbdcee85071c4e3f6cd2b4b7a8216404bff1ba4c74499de8754c78ac74e454c",
+    "pass1/R2/review.md": "02e4814e48e7e3d837808f2ffaa9e7183417bf11d066c3bdefd48105af0f47ee",
+    "pass1/R2/revised.md": "b1105f15d450e7c83ef8b96ca3574682d0b3c6a3930bd2a646891f42edff55bc",
+    "pass1/R3/review.md": "b15b517680a0483ea9358276ae85bc6cb18ead048728ee3f667165887b220498",
+    "pass1/R3/revised.md": "7e93c4eeb38da250b48da54972e66059147708379932184d3c9900cfd2bacfb1",
+    "pass1/R4/review.md": "cc1c9b3201d1ac4d9001599ec92f5d3900a77a42eb91b87bdc721a5ae896d161",
+    "pass1/R4/revised.md": "e6c177d83e0747822b3cd95fbf804314a50b688a4ea72ea1884d03663b2e38e7",
+    "pass1/run.json": "71d326255e0aa7081ad29de2fd303dba2b756f65d29b0d3d2928959fd591e3b5",
+    "pass2/H1/review.md": "4fd963769a2688f5e09fab8fdcdbb05095ca1f80a4c10016edfcef410901aa8c",
+    "pass2/H1/revised.md": "c71706d756ff84af83ee784a9492d4bb59c0d1e8b581a93f6b3bfce49de9c4ac",
+    "pass2/H2/review.md": "356040490a541d37a03486df48c2d26faea8cdf724f666eb376b97dddf73b649",
+    "pass2/H2/revised.md": "52a8b9d50d643671bd166eed2c56dbe95a72696082f3aef9ae33e7531f7504a7",
+    "pass2/R4/review.md": "3bfff50130562eb5e1425c1124b956194559c87bcc1664270e6b38c221160c45",
+    "pass2/R4/revised.md": "63d2f18fbabc5caaf7ee4b3bb4aee90b68a099366d33362e5c01d7295e49d6f3",
+    "pass2/run.json": "be821b3eddfe9c5fa41cd602fe7b76b37f020a9fe240aa0a98c97900c354aeb3"
+  }
+}
