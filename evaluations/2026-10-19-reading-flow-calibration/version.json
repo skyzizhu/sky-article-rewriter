@@ -1,0 +1,9 @@
+{
+  "baseline_commit": "914db278284acc7ab0f598fe11d33a231f1423dd",
+  "runtime_files": {
+    "SKILL.md": "3fd2e8e1b8c38e0badda5a591fac8ca506d6d6fc378cb96b853a54d7c5d8e6da",
+    "references/technical.md": "c45fdae40252fc1e9e90a485d330279fa370c1583733efa44714a7172b10e4ba",
+    "references/writing-guide.md": "527a106338246fe87cd9cb5f79ce0077b311f1ba15d85ff5f35e9dc8d240cb13"
+  },
+  "validation_scope": "same-context fragment editing and static cross-type boundary review; no full article rerun"
+}
