@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-19",
+  "baseline_commit": "4d6adea05fc402ce7b61df1dcb9b2e30a5ca97bd",
+  "request": "请使用 sky-article-rewriter，按所提供原文的完整正文范围，重构为面向无相关背景中文成年人的独立可读文章。忠于原文核心，通俗易懂、简洁明了、循序渐进。未指定字数，按理解需要决定篇幅，保留关键依据、条件、分歧与必要解释，不把全文压成摘要。先保存草稿，再按第5步审稿、实际修订并复核，交付正文和必要来源。",
+  "scope": "4份新真实材料，各在独立上下文运行一次；所有交付冻结后再交叉复核。评测期间不改技能。",
+  "skill_files": {
+    "SKILL.md": "3ef666a975b17d6c80784df1e2cd36ce3d6d71cb8db0430bc16594e873846907",
+    "agents/openai.yaml": "2c702f51e260a9ced2387797bbe64ab1536393d18fa78e04b3d54385b04f4b79",
+    "references/examples.md": "6e80a10910ad18677e7bca645b6f19f42152d5b221040d999795c17d8ba72112",
+    "references/interview-podcast.md": "6698788b37a883027e3082a721dc0220eba44e0b6f743531cf476549dbf615ba",
+    "references/life-documentary-opinion.md": "4c38f089d70b9765beb6fe6fffcbf61ae1e03e7ee17ad5f0e9c063e51f6fb848",
+    "references/long-content-and-evaluation.md": "8a0aaf19a524abbcd5e92b8e905604bc2719c7beefc5ef8d9aed8709c6c6a56f",
+    "references/narrative-and-flow.md": "123cc79854b48b8fc8c14395f8d8348a36fb1a89e8c24a303630e513ece9ee74",
+    "references/restructuring-guide.md": "229091bc47c81e59f90361593c820070fff7aa3021eeb9356cab2db100130dce",
+    "references/technical.md": "4187fda1647c4bc2d10bca2fde6e41feb610b6687296acb32a5dc5fd83aecc36",
+    "references/writing-guide.md": "8245b5fb81ff3064afec99033da36c3ed6656218af2eae17b9e1780f7e8cb9d7"
+  },
+  "sources": {
+    "I": {
+      "url": "https://en.wikinews.org/wiki/Interview_with_LibriVox_founder_Hugh_McGuire",
+      "characters": 11003,
+      "han_characters": 168,
+      "whitespace_tokens": 1791,
+      "sha256": "91c849915400351b650568f78eb38391ddafe546fe4199be47c870b07ea15b74",
+      "retrieval": "web工具完整页面正文行提取（直接HTTP403）",
+      "license_note": "Wikinews, CC BY 2.5, article published 2006-05-28; attribution and license link required."
+    },
+    "T": {
+      "url": "https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Guides/Compression",
+      "characters": 2277,
+      "han_characters": 1767,
+      "whitespace_tokens": 108,
+      "sha256": "a1a8f4f0b0574bd73f2a1a172e6aeda0562e54133e0613233d13c19a67a1071e",
+      "retrieval": "HTTP200，HTML正文抽取，排除导航与页脚",
+      "license_note": "Mozilla Contributors, CC BY-SA 2.5 or later; article adaptations use CC BY-SA 2.5, indicate changes, source and license."
+    },
+    "L": {
+      "url": "https://zh.wikisource.org/zh-hans/匆匆",
+      "characters": 759,
+      "han_characters": 589,
+      "whitespace_tokens": 21,
+      "sha256": "e86dd93b22ffd847029a34673badf4531cd154608824b942ba5bc8fd395de38f",
+      "retrieval": "web工具完整页面正文行提取（直接HTTP403）",
+      "license_note": "朱自清1922作品，源页声明公有领域；保留作者与原作归属。"
+    },
+    "H": {
+      "url": "https://www.nps.gov/jofl/learn/historyculture/path-of-the-flood.htm",
+      "characters": 7249,
+      "han_characters": 0,
+      "whitespace_tokens": 1253,
+      "sha256": "b30ae648a104370c2160017acdd2ac2ae9f37e3478af60eb3548a15514893dfc",
+      "retrieval": "HTTP200，完整正文及可见图注，保留h标签外裸文本；排除导航与页脚",
+      "license_note": "NPS机构正文；仅改写文字，不复制图片或地图。",
+      "last_updated_visible": "2026-04-21"
+    }
+  },
+  "limitations": [
+    "模型自检及交叉复核，不是真实读者试验",
+    "各题一次，不建立统计稳定性结论",
+    "中英混合来源；中文MDN为翻译版本，历史访谈保留2006语境",
+    "不设统一压缩比例，不以汉字数与英文词数直接比较质量"
+  ]
+}

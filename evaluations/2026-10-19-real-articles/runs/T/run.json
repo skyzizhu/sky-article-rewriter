@@ -1,0 +1,124 @@
+{
+  "case": "T",
+  "date": "2026-10-19",
+  "completed_at_utc": "2026-10-19T00:54:09.429057+00:00",
+  "request": "Follow protocol.json request: full independent Chinese reconstruction for adults without domain background; no length target; persist draft then review, actually revise, and recheck",
+  "source_scope": "All 2277 characters of sources/T.txt, in original order: title, introduction, file format compression, end-to-end compression, hop-by-hop compression. Navigation, footer and images excluded.",
+  "source_retrieved_date": "2026-10-19",
+  "source_visible_updated_date": "2025-07-04",
+  "source_metadata_entry": "sources/manifest.json[T]",
+  "loaded_files": [
+    {
+      "path": "skill/SKILL.md",
+      "sha256": "3ef666a975b17d6c80784df1e2cd36ce3d6d71cb8db0430bc16594e873846907",
+      "characters": 8577,
+      "lines": 171,
+      "read_scope": "Full reading"
+    },
+    {
+      "path": "skill/references/technical.md",
+      "sha256": "4187fda1647c4bc2d10bca2fde6e41feb610b6687296acb32a5dc5fd83aecc36",
+      "characters": 1789,
+      "lines": 49,
+      "read_scope": "Full reading"
+    },
+    {
+      "path": "skill/references/long-content-and-evaluation.md",
+      "sha256": "8a0aaf19a524abbcd5e92b8e905604bc2719c7beefc5ef8d9aed8709c6c6a56f",
+      "characters": 2283,
+      "lines": 63,
+      "read_scope": "Full reading"
+    },
+    {
+      "path": "sources/T.txt",
+      "sha256": "a1a8f4f0b0574bd73f2a1a172e6aeda0562e54133e0613233d13c19a67a1071e",
+      "characters": 2277,
+      "lines": 47,
+      "read_scope": "Full sequential reading"
+    },
+    {
+      "path": "sources/manifest.json",
+      "sha256": "49a64329ad0311cd00196df604d0a0811e4c7fdaa717a97db64e671de090c26d",
+      "characters": 1603,
+      "lines": 39,
+      "read_scope": "Only T entry parsed and printed; no other case source text read"
+    },
+    {
+      "path": "protocol.json",
+      "sha256": "8d84574903ddfbb88139484da8050af609ba49acdaf1fcff1b7506e2c75eeeb5",
+      "characters": 3217,
+      "lines": 63,
+      "read_scope": "Full reading"
+    }
+  ],
+  "processing_strength": "Light technical reconstruction: original three-level sequence retained; conceptual dependencies explained; restructuring reference not needed",
+  "core_record": {
+    "topic": "Three levels of HTTP compression: file formats, end-to-end message body, adjacent-node connections.",
+    "main_judgment": "Appropriate compression reduces data transfer and improves site performance; choose by level and acceptable quality, avoid redundant general compression on compressed files.",
+    "necessary_support_and_conditions": [
+      "File-format section: lossless/lossy distinction, GIF/PNG/JPEG/WebP, quality-size tradeoff, overhead can outweigh recompression savings.",
+      "End-to-end section: server compresses body which stays unchanged in transit; Accept-Encoding, Content-Encoding and Vary; text-oriented algorithms and existing server configuration mechanisms.",
+      "Hop-by-hop section: compression between adjacent nodes, differing per link; TE and Transfer-Encoding; rare, mainly proxy configuration; chunking allows transmission before total length is known."
+    ]
+  },
+  "external_checks": [
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Compression",
+      "purpose": "Check Chinese encryption/compression mistranslation and up-to-70-percent size-reduction meaning",
+      "read_scope": "Tool returned page with navigation and body; corresponding lines 174-220 examined. New English compression dictionary transport section excluded from reconstructed topic.",
+      "used_changes": [
+        "General compression terminology",
+        "70 percent is an upper bound, not an approximate typical result"
+      ]
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/TE",
+      "purpose": "Check protocol-version boundary and relationship to chunking",
+      "read_scope": "Page open and find for HTTP/2 and chunked; relevant lines 183-240",
+      "used_changes": [
+        "Clarify HTTP/1.1 context and that HTTP/2 and HTTP/3 do not use TE for this compression negotiation",
+        "Do not describe advertising chunked in TE as a required step"
+      ]
+    }
+  ],
+  "workflow": [
+    "Read full source, identify core and technical dependencies",
+    "Persist draft.md without later overwriting",
+    "Self-review faithfulness, accuracy, clarity and concision",
+    "Apply seven concrete revisions in final.md",
+    "Reread final and matching source sections, save review.md and run.json"
+  ],
+  "draft_sha256_before_review": "fe3771171ffed6723e4c77eaabf6a8e0a90f56a8d90339c12040091637421948",
+  "review_type": "Same-context model self-review; no independent reviewer; no real reader trial",
+  "license": {
+    "attribution": "Mozilla Contributors",
+    "adaptation_license": "CC BY-SA 2.5",
+    "url": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "images_copied": false
+  },
+  "limitations": [
+    "Single run on one article; no real-reader evidence or statistical stability claim",
+    "Original Chinese scope and author claims retained; external English new topic not incorporated",
+    "No server configurations run or compression performance tested",
+    "External checks calibrate terminology and protocol conditions; they do not validate broad performance claims"
+  ],
+  "outputs": {
+    "draft.md": {
+      "sha256": "fe3771171ffed6723e4c77eaabf6a8e0a90f56a8d90339c12040091637421948",
+      "characters": 2654,
+      "bytes": 6424
+    },
+    "review.md": {
+      "sha256": "57c688a0ac143a3f116a9ba114ac58f0d4c0383421550af73e326655e3a8b1be",
+      "characters": 1348,
+      "bytes": 3508
+    },
+    "final.md": {
+      "sha256": "7812147c3c30b77788544b86e388111a069771b077aee676f527c6b4697a289e",
+      "characters": 2706,
+      "bytes": 6544
+    }
+  },
+  "loaded_skill_sha_matches_protocol": true,
+  "loaded_source_sha_matches_manifest_and_protocol": true
+}

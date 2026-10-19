@@ -1,0 +1,40 @@
+{
+  "case": "L",
+  "request": "完整正文范围；面向无背景中文成年人；独立可读；草稿保存后审稿、修订与复核",
+  "read_scope": [
+    "skill/SKILL.md",
+    "skill/references/life-documentary-opinion.md",
+    "sources/L.txt",
+    "protocol.json",
+    "sources/manifest.json：只提取L条目"
+  ],
+  "source_scope": "《匆匆》完整五段及1922年3月28日落款；网页行号只作为定位",
+  "skill_sha256": "3ef666a975b17d6c80784df1e2cd36ce3d6d71cb8db0430bc16594e873846907",
+  "read_file_sha256": {
+    "skill/SKILL.md": "3ef666a975b17d6c80784df1e2cd36ce3d6d71cb8db0430bc16594e873846907",
+    "skill/references/life-documentary-opinion.md": "4c38f089d70b9765beb6fe6fffcbf61ae1e03e7ee17ad5f0e9c063e51f6fb848",
+    "sources/L.txt": "e86dd93b22ffd847029a34673badf4531cd154608824b942ba5bc8fd395de38f",
+    "protocol.json": "8d84574903ddfbb88139484da8050af609ba49acdaf1fcff1b7506e2c75eeeb5"
+  },
+  "workflow": [
+    "完整读取指定原文和技能",
+    "确认核心与感受型路由",
+    "保存draft.md且不回写",
+    "对照原文自检",
+    "实际修订并复核",
+    "交付final.md"
+  ],
+  "limitations": [
+    "同一执行者自检，无独立上下文复核",
+    "无真实读者试读，不声称阅读效果稳定",
+    "未浏览源网页；采用提供的完整正文和L元数据",
+    "未读取其他case原文、其他运行或旧评测；未改源、协议、技能；未运行Git或派生代理"
+  ],
+  "external_facts_added": false,
+  "outputs": [
+    "draft.md",
+    "review.md",
+    "final.md",
+    "run.json"
+  ]
+}

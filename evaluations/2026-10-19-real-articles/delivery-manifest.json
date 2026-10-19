@@ -1,0 +1,94 @@
+{
+  "frozen_at_utc": "2026-10-19T00:55:22.614528+00:00",
+  "baseline_commit": "4d6adea05fc402ce7b61df1dcb9b2e30a5ca97bd",
+  "runs": {
+    "I": {
+      "draft.md": {
+        "sha256": "47bcaf6f11c1e92c010ea8e2fe7c2a3cc302fc9b68904e421c1422a05e49dff5",
+        "characters": 3191,
+        "han_characters": 2438
+      },
+      "review.md": {
+        "sha256": "e88e809d4c648c556f6e0869acfc16e981c3bcde14f6c69adaaf7862065e0a02",
+        "characters": 1202,
+        "han_characters": 822
+      },
+      "final.md": {
+        "sha256": "4fa7b84ec7645aec7c33e623e38e910bbe67fb0efbc7819b147fe9d8aa2dbdab",
+        "characters": 3174,
+        "han_characters": 2417
+      },
+      "run.json": {
+        "sha256": "61f50eb715da412084ef09a7d9678c34a57bfdca9d94e8204158465af6a82d91",
+        "characters": 2144,
+        "han_characters": 219
+      }
+    },
+    "T": {
+      "draft.md": {
+        "sha256": "fe3771171ffed6723e4c77eaabf6a8e0a90f56a8d90339c12040091637421948",
+        "characters": 2654,
+        "han_characters": 1700
+      },
+      "review.md": {
+        "sha256": "57c688a0ac143a3f116a9ba114ac58f0d4c0383421550af73e326655e3a8b1be",
+        "characters": 1348,
+        "han_characters": 939
+      },
+      "final.md": {
+        "sha256": "7812147c3c30b77788544b86e388111a069771b077aee676f527c6b4697a289e",
+        "characters": 2706,
+        "han_characters": 1734
+      },
+      "run.json": {
+        "sha256": "0fc5f2601b96896181bdedf03ccc278bd5df5cfdb60fa293122ac1960d0cb5e0",
+        "characters": 5929,
+        "han_characters": 0
+      }
+    },
+    "L": {
+      "draft.md": {
+        "sha256": "1f9c04a6651b315b24051da12ffb4522eb5301ab581a6b9d9d098ccbe24828da",
+        "characters": 709,
+        "han_characters": 562
+      },
+      "review.md": {
+        "sha256": "2cd2972e47b8711bce7d97febf93eb231e6453ed3fb7db0b02d282b5ff42e9f8",
+        "characters": 810,
+        "han_characters": 658
+      },
+      "final.md": {
+        "sha256": "50adb8f18ca66ddbeac82791a88c68de866c6742d2152e7dbd9d8eb62778ddcf",
+        "characters": 698,
+        "han_characters": 549
+      },
+      "run.json": {
+        "sha256": "261c2894939748dd3fef5379e1f417b1b6fb50625bc8837b3bee686123513cb4",
+        "characters": 1194,
+        "han_characters": 180
+      }
+    },
+    "H": {
+      "draft.md": {
+        "sha256": "94c6c9b129da32f9b5b3f23708a98fc39b8feb707c95a87ff0d2ad06a293c221",
+        "characters": 2196,
+        "han_characters": 1698
+      },
+      "review.md": {
+        "sha256": "60081d206c74515c4465eefa605d868d6aeafc15583dfb7fd7e0e4e0bda9f146",
+        "characters": 1549,
+        "han_characters": 1039
+      },
+      "final.md": {
+        "sha256": "760b36094e699f480e9e2d9c8bd32345ea9f26ea58475c3d5293ce8736d0f57e",
+        "characters": 2207,
+        "han_characters": 1711
+      },
+      "run.json": {
+        "sha256": "4f26b37afcfb778a629bb7868c7b7708ecfb7cba4cdc60efb81011e1f7bac7dc",
+        "characters": 2421,
+        "han_characters": 245
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "case": "H",
+  "date": "2026-10-19",
+  "protocol": "../protocol.json",
+  "execution": "冻结技能单次运行；先保存draft.md，再同一上下文自检、实际修订、复核",
+  "source": {
+    "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-real-eval-20261019/sources/H.txt",
+    "sha256": "b30ae648a104370c2160017acdd2ac2ae9f37e3478af60eb3548a15514893dfc",
+    "characters": 7249,
+    "whitespace_tokens": 1253,
+    "url": "https://www.nps.gov/jofl/learn/historyculture/path-of-the-flood.htm",
+    "read_scope": "完整顺序读取sources/H.txt，从# Path of the Flood及谷地鸟瞰图注，经过The Conemaugh Valley、South Fork、Mineral Point、East Conemaugh、Woodvale、Johnstown及各图注，到末句That evening around 6:00 p.m. the wreckage at the Pennsylvania Railroad's stone bridge caught fire.",
+    "truncated": false,
+    "images_downloaded_or_viewed": false
+  },
+  "skill": {
+    "path": "/Users/skyzizhu/Desktop/video-agent/sky-article-rewriter-real-eval-20261019/skill/SKILL.md",
+    "sha256": "3ef666a975b17d6c80784df1e2cd36ce3d6d71cb8db0430bc16594e873846907",
+    "references_read": [
+      {
+        "path": "references/life-documentary-opinion.md",
+        "sha256": "4c38f089d70b9765beb6fe6fffcbf61ae1e03e7ee17ad5f0e9c063e51f6fb848"
+      },
+      {
+        "path": "references/narrative-and-flow.md",
+        "sha256": "123cc79854b48b8fc8c14395f8d8348a36fb1a89e8c24a303630e513ece9ee74"
+      },
+      {
+        "path": "references/long-content-and-evaluation.md",
+        "sha256": "8a0aaf19a524abbcd5e92b8e905604bc2719c7beefc5ef8d9aed8709c6c6a56f"
+      }
+    ],
+    "modified": false
+  },
+  "core": "沿14英里洪水路径及五个城镇的地形、预警、见闻和毁坏，解释不到一小时内的灾害推进，止于当晚石桥残骸起火。",
+  "external_research": false,
+  "new_external_historical_facts": false,
+  "review_mode": "同一上下文模型自检，非独立复核",
+  "draft_preserved": true,
+  "actual_revisions": 5,
+  "outputs": {
+    "draft.md": {
+      "sha256": "94c6c9b129da32f9b5b3f23708a98fc39b8feb707c95a87ff0d2ad06a293c221",
+      "characters": 2196
+    },
+    "review.md": {
+      "sha256": "60081d206c74515c4465eefa605d868d6aeafc15583dfb7fd7e0e4e0bda9f146",
+      "characters": 1549
+    },
+    "final.md": {
+      "sha256": "760b36094e699f480e9e2d9c8bd32345ea9f26ea58475c3d5293ce8736d0f57e",
+      "characters": 2207
+    }
+  },
+  "limitations": [
+    "未阅读其他case正文、其他运行或旧评测；protocol及manifest中可见其他来源元数据未用于写作。",
+    "未独立核验NPS机构正文中的历史事实；没有补入外部全套洪水史。",
+    "源有约30栋白屋与32所房屋两种表述，成稿按街景近似数与损失统计分别保留。",
+    "未查看原图片或地图；仅知所提供的可见图注。",
+    "自检不是独立上下文审稿或真实读者试验，不作统计稳定性或读完率结论。"
+  ]
+}

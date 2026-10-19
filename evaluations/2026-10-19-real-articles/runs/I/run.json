@@ -1,0 +1,68 @@
+{
+  "case": "I",
+  "date": "2026-10-19",
+  "skill_frozen": true,
+  "loaded_files": {
+    "skill/SKILL.md": {
+      "sha256": "3ef666a975b17d6c80784df1e2cd36ce3d6d71cb8db0430bc16594e873846907",
+      "local_line_count": 171
+    },
+    "skill/references/interview-podcast.md": {
+      "sha256": "6698788b37a883027e3082a721dc0220eba44e0b6f743531cf476549dbf615ba",
+      "local_line_count": 46
+    },
+    "skill/references/restructuring-guide.md": {
+      "sha256": "229091bc47c81e59f90361593c820070fff7aa3021eeb9356cab2db100130dce",
+      "local_line_count": 129
+    },
+    "skill/references/long-content-and-evaluation.md": {
+      "sha256": "8a0aaf19a524abbcd5e92b8e905604bc2719c7beefc5ef8d9aed8709c6c6a56f",
+      "local_line_count": 63
+    },
+    "sources/I.txt": {
+      "sha256": "91c849915400351b650568f78eb38391ddafe546fe4199be47c870b07ea15b74",
+      "local_line_count": 114
+    },
+    "sources/manifest.json": {
+      "sha256": "49a64329ad0311cd00196df604d0a0811e4c7fdaa717a97db64e671de090c26d",
+      "local_line_count": 39
+    },
+    "protocol.json": {
+      "sha256": "8d84574903ddfbb88139484da8050af609ba49acdaf1fcff1b7506e2c75eeeb5",
+      "local_line_count": 63
+    }
+  },
+  "read_scope": {
+    "source": "sources/I.txt，全部标题及网页行115—170，包含记者引言和全部问答，末行为Whitman / Leaves of Grass回答",
+    "skill": "SKILL.md全篇；首次工具输出在第5步附近截断，随后补读145—190行至末尾",
+    "references": "interview-podcast.md、restructuring-guide.md、long-content-and-evaluation.md均完整读取",
+    "metadata": "读取manifest.json；仅使用I条目，未读取其他case原文",
+    "protocol": "protocol.json完整读取"
+  },
+  "workflow": [
+    "完整读源与规则",
+    "内部核心/议题映射",
+    "先保存draft.md且不回写",
+    "读取草稿并对照源审稿",
+    "保存review.md及实际修订final.md",
+    "回读final.md与关键原文复核"
+  ],
+  "source_sha_matches_protocol": true,
+  "skill_sha_matches_protocol": true,
+  "external_browsing": false,
+  "new_external_cases": false,
+  "images_copied": false,
+  "other_runs_read": false,
+  "limitations": [
+    "单次模型自检，无独立读者实验；不能证明真实阅读效果或统计稳定性",
+    "保留2006采访时点与受访者观点；未以2026项目现状或技术能力替代原文",
+    "网页源来自已提供抓取文本；本次没有独立访问网页核验",
+    "工具首次输出截断已补读，不把截断内容视为已读"
+  ],
+  "outputs": [
+    "draft.md",
+    "review.md",
+    "final.md",
+    "run.json"
+  ]
+}
