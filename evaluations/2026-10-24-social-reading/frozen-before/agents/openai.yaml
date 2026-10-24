@@ -1,0 +1,4 @@
+interface:
+  display_name: "文章精读重构"
+  short_description: "将文章改写为适合公众号、头条号或 X 的精炼正文，突出核心并保留依据与条件。"
+  default_prompt: "请使用 $sky-article-rewriter 将这份内容按目标平台改写，尽早给出核心信息，表达通俗精炼，并保留关键依据与条件；未指定平台时输出一份适合移动阅读的文章。"

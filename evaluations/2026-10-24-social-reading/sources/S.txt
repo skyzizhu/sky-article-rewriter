@@ -1,0 +1,104 @@
+Source: https://science.nasa.gov/missions/webb/nasas-webb-proves-galaxies-transformed-the-early-universe/
+Fetched: 2026-10-24
+
+Explore Webb
+6 Min Read
+NASA’s Webb Proves Galaxies Transformed the Early Universe
+There are more than 20,000 galaxies in this field. This James Webb Space Telescope view is found between the Pisces and Andromeda constellations. Researchers using Webb anchored their observations on quasar J0100+2802, an active supermassive black hole that acts like a beacon....
+Credits:
+Image: NASA, ESA, CSA, Simon Lilly (ETH Zurich), Daichi Kashino (Nagoya University), Jorryt Matthee (ETH Zurich), Christina Eilers (MIT), Rob Simcoe (MIT), Rongmon Bordoloi (NCSU), Ruari Mackenzie (ETH Zurich); Image Processing: Alyssa Pagan (STScI), Ruari Mackenzie (ETH Zurich)
+NASA Webb Mission Team
+Goddard Space Flight Center
+Jun 12, 2023
+Article
+In the early universe, the gas between stars and galaxies was opaque – energetic starlight could not penetrate it. But 1 billion years after the big bang, the gas had become completely transparent. Why? New data from NASA’s James Webb Space Telescope has pinpointed the reason: The galaxies’ stars emitted enough light to heat and ionize the gas around them, clearing our collective view over hundreds of millions of years.
+The results, from a research team led by Simon Lilly of ETH Zürich in Switzerland, are the newest insights about a time period known as the
+Era of Reionization
+, when the universe underwent dramatic changes. After the big bang, gas in the universe was incredibly hot and dense. Over hundreds of millions of years, the gas cooled. Then, the universe hit “repeat.” The gas again became hot and ionized – likely due to the formation of early stars in galaxies, and over millions of years, became transparent.
+There are more than 20,000 galaxies in this field. This James Webb Space Telescope view is found between the Pisces and Andromeda constellations. Researchers using Webb anchored their observations on quasar J0100+2802, an active supermassive black hole that acts like a beacon....
+Image: NASA, ESA, CSA, Simon Lilly (ETH Zurich), Daichi Kashino (Nagoya University), Jorryt Matthee (ETH Zurich), Christina Eilers (MIT), Rob Simcoe (MIT), Rongmon Bordoloi (NCSU), Ruari Mackenzie (ETH Zurich); Image Processing: Alyssa Pagan (STScI), Ruari Mackenzie (ETH Zurich)
+Researchers have long sought definitive evidence to explain these transformations. The new results effectively pull back the curtain at the end of this reionization period. “Not only does Webb clearly show that these transparent regions are found around galaxies, we’ve also measured how large they are,” explained Daichi Kashino of Nagoya University in Japan, the lead author of the team’s first paper. “With Webb’s data, we are seeing galaxies reionize the gas around them.”
+These regions of transparent gas are gigantic compared to the galaxies – imagine a hot air balloon with a pea suspended inside. Webb’s data shows that these relatively tiny galaxies drove reionization, clearing massive regions of space around them. Over the next hundred million years, these transparent “bubbles” continued to grow larger and larger, eventually merging and causing the entire universe to become transparent.
+More than 13 billion years ago, during the Era of Reionization, the universe was a very different place. The gas between galaxies was largely opaque to energetic light, making it difficult to observe young galaxies. As stars and young galaxies continued to form and evolve, they...
+Illustration: NASA, ESA, CSA, Joyce Kang (STScI)
+Lilly’s team intentionally targeted a time just before the end of the Era of Reionization, when the universe was not quite clear and not quite opaque – it contained a patchwork of gas in various states. Scientists aimed Webb in the direction of a
+quasar
+– an extremely luminous active supermassive black hole that acts like an enormous flashlight – highlighting the gas between the quasar and our telescopes. (Find it at the center of this view: It is tiny and pink with six prominent diffraction spikes.)
+As the quasar’s light traveled toward us through different patches of gas, it was either absorbed by gas that was opaque or moved freely through transparent gas. The team’s groundbreaking results were only possible by pairing Webb’s data with observations of the central quasar from the W. M. Keck Observatory in Hawaii, and the European Southern Observatory’s Very Large Telescope and the Magellan Telescope at Las Campanas Observatory, both in Chile. “By illuminating gas along our line of sight, the quasar gives us extensive information about the composition and state of the gas,” explained Anna-Christina Eilers of MIT in Cambridge, Massachusetts, the lead author of another team paper.
+The researchers then used Webb to identify galaxies near this line of sight and showed that the galaxies are generally surrounded by transparent regions about 2 million light-years in radius. In other words, Webb witnessed galaxies in the process of clearing the space around them at the end of the Era of Reionization. To put this in perspective, the area these galaxies have cleared is approximately the same distance as the space between our Milky Way galaxy and our nearest neighbor, Andromeda.
+Until now, researchers didn’t have this definitive evidence of what caused reionization – before Webb, they weren’t certain precisely what was responsible.
+What do these galaxies look like? “They are more chaotic than those in the nearby universe,” explained Jorryt Matthee, also of ETH Zürich and the lead author of the team’s second paper. “Webb shows they were actively forming stars and must have been shooting off many
+supernovae
+. They had quite an adventurous youth!”
+The James Webb Space Telescope has returned extraordinarily detailed images and spectra of galaxies that existed when the universe was only 900 million years old. “In Webb’s near-infrared image, we can see structures in every individual galaxy that the telescope detected,”...
+Image: NASA, ESA, CSA, Simon Lilly (ETH Zurich), Daichi Kashino (Nagoya University), Jorryt Matthee (ETH Zurich), Christina Eilers (MIT), Rongmon Bordoloi (NCSU), Ruari Mackenzie (ETH Zurich); Image Processing: Alyssa Pagan (STScI), Ruari Mackenzie (ETH Zurich)
+Along the way, Eilers used Webb’s data to confirm that the black hole in the quasar at the center of this field is the most massive currently known in the early universe, weighing 10 billion times the mass of the Sun. “We still can’t explain how quasars were able to grow so large so early in the history of the universe,” she shared. “That’s another puzzle to solve!” The exquisite images from Webb also revealed no evidence that the light from the quasar had been gravitationally lensed, ensuring that the mass measurements are definitive.
+The team will soon dive into research about galaxies in five additional fields, each anchored by a central quasar. Webb’s results from the first field were so overwhelmingly clear that they couldn’t wait to share them. “We expected to identify a few dozen galaxies that existed during the Era of Reionization – but were easily able to pick out 117,” Kashino explained. “Webb has exceeded our expectations.”
+Lilly’s research team, the
+Emission-line galaxies and Intergalactic Gas in the Epoch of Reionization (EIGER)
+, have demonstrated the unique power of combining conventional images from Webb’s
+NIRCam
+(Near-Infrared Camera) with data from the same instrument’s wide-field slitless spectroscopy mode, which gives a
+spectrum
+of every object in the images – turning Webb into what the team calls a “spectacular spectroscopic
+redshift
+machine.”
+The team’s first publications include
+“EIGER I. a large sample of [O iii]-emitting galaxies at 5.3 < z < 6.9 and direct evidence for local reionization by galaxies,”
+led by Kashino,
+“EIGER II. first spectroscopic characterisation of the young stars and ionised gas associated with strong Hβ and [OIII] line-emission in galaxies at z = 5 – 7 with JWST,”
+led by Matthee, and
+“EIGER III. JWST/NIRCam observations of the ultra-luminous high-redshift quasar J0100+2802,”
+led by Eilers, and will be published in The Astrophysical Journal on June 12.
+The James Webb Space Telescope is the world’s premier space science observatory. Webb will solve mysteries in our solar system, look beyond to distant worlds around other stars, and probe the mysterious structures and origins of our universe and our place in it. Webb is an international program led by NASA with its partners, ESA (European Space Agency) and the Canadian Space Agency.
+Related Images & Videos
+Quasar J0100+2802 (NIRCam Image)
+There are more than 20,000 galaxies in this field. This James Webb Space Telescope view is found between the Pisces and Andromeda constellations. Researchers using Webb anchored their observations on quasar J0100+2802, an active supermassive black hole that acts like a beacon....
+Distant Galaxy Samples Near Quasar J0100+2802 (NIRCam Image)
+The James Webb Space Telescope has returned extraordinarily detailed images and spectra of galaxies that existed when the universe was only 900 million years old. “In Webb’s near-infrared image, we can see structures in every individual galaxy that the telescope detected,”...
+Conditions During the Era of Reionization (Illustration)
+More than 13 billion years ago, during the Era of Reionization, the universe was a very different place. The gas between galaxies was largely opaque to energetic light, making it difficult to observe young galaxies. As stars and young galaxies continued to form and evolve, they...
+Quasar J0100+2802 (NIRCam Compass Image)
+This image centered on quasar J0100+2802, captured by Webb’s NIRCam (Near-Infrared Camera), shows compass arrows, scale bar, and color key for reference. The north and east compass arrows show the orientation of the image on the sky. Note that the relationship between north and...
+Share
+Details
+Last Updated
+Sep 21, 2026
+Location
+NASA Goddard Space Flight Center
+Contact
+Media
+Laura Betz
+NASA’s Goddard Space Flight Center
+Greenbelt, Maryland
+laura.e.betz@nasa.gov
+Claire Blome
+Space Telescope Science Institute
+Baltimore, Maryland
+Christine Pulliam
+Space Telescope Science Institute
+Baltimore, Maryland
+Science Credit
+Simon Lilly (ETH Zurich)
+Related Terms
+James Webb Space Telescope (JWST)
+Active Galaxies
+Astrophysics
+Galaxies
+Goddard Space Flight Center
+Origin & Evolution of the Universe
+Quasars
+Science & Research
+The Universe
+Related Links and Documents
+Era of Reionization Infographic
+What Were the Universe’s Dark Ages?
+How Webb Can Study the Early Universe
+Spectroscopy 101 Article Series
+Keep Exploring
+Discover More Topics From Webb
+James Webb Space Telescope
+Webb is the premier observatory of the next decade, serving thousands of astronomers worldwide. It studies every phase in the…
+Science Overview
+Webb Observatory
+Webb Image Galleries

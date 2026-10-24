@@ -1,0 +1,46 @@
+{
+  "method": "Visible non-whitespace characters; remove Markdown URL targets, heading markers, article title and trailing source note. This is not a reading-time or comprehension measure.",
+  "cases": {
+    "S": {
+      "draft_visible_chars": 747,
+      "final_visible_chars": 613,
+      "final_sha256": "ea0665093ffbc958946ebca25c17b894a3a3072a90ef8e8248e23a944b9eea42"
+    },
+    "T": {
+      "draft_visible_chars": 961,
+      "final_visible_chars": 972,
+      "final_sha256": "5d03c612165dde91072c3d96884c0707d74b15e1167b5698c85dbe93c0f70546"
+    },
+    "I": {
+      "draft_visible_chars": 893,
+      "final_visible_chars": 879,
+      "final_sha256": "909d363de3f81aaf3c6e59a6294972fb7c1869f4f2620168ca5b86ac40312205"
+    },
+    "N": {
+      "draft_visible_chars": 739,
+      "final_visible_chars": 682,
+      "final_sha256": "5e57900c975490e931e9190430729ab51a7db22cbb193d5fd32c9bde95fb0c6e"
+    },
+    "X": {
+      "draft_visible_chars": 380,
+      "final_visible_chars": 331,
+      "final_sha256": "705e09fd563504d795447f5a5e66eb8df1192e909c007214bbd63eaa8c35b84a",
+      "draft_post_weights": [
+        118,
+        93,
+        125,
+        118,
+        124
+      ],
+      "final_post_weights": [
+        118,
+        93,
+        125,
+        148
+      ],
+      "final_posts_within_standard_limit": true
+    }
+  },
+  "x_count_method": "NFC + twitter-text v3 code-point weights + 23 per explicit URL; no emoji or implicit URLs in this sample; not an account publishing test.",
+  "behavioral_skill_changes_during_run": false
+}

@@ -1,0 +1,4 @@
+{
+  "SKILL.md": "frozen-before/SKILL.snapshot.md",
+  "other_files": "frozen-before/<original-relative-path>"
+}
